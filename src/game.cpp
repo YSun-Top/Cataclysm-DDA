@@ -2898,6 +2898,12 @@ bool game::is_game_over()
     }
     // is_dead_state() already checks hp_torso && hp_head, no need to for loop it
     if( u.is_dead_state() ) {
+        if (query_yn(_("你是否拒绝死亡？"))) {
+            g->quickload();
+            g->uquit == QUIT_NO;
+            return false;
+        }
+
         effect_on_conditions::prevent_death();
         if( !u.is_dead_state() ) {
             return false;

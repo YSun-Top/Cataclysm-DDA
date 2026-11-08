@@ -14,8 +14,8 @@
     "dynamic_line": "How much experience should be required to get to the first level?",
     "responses": [
       {
-        "text": "Default (100 exp)",
-        "effect": [ { "math": [ "u_exp_to_perk = 100" ] } ],
+        "text": "Default (10 exp)",
+        "effect": [ { "math": [ "u_exp_to_perk = 10" ] } ],
         "topic": "TALK_PERK_MENU_WELCOME_EXP_INCREMENT"
       },
       {
@@ -32,8 +32,8 @@
     "dynamic_line": "How much more experience should be required to get to each additional level?",
     "responses": [
       {
-        "text": "Default (300 XP)",
-        "effect": [ { "math": [ "u_exp_per_level = 300" ] } ],
+        "text": "Default (150 XP)",
+        "effect": [ { "math": [ "u_exp_per_level = 150" ] } ],
         "topic": "TALK_PERK_MENU_WELCOME_REQUIREMENTS"
       },
       {
