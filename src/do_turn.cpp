@@ -135,6 +135,12 @@ bool cleanup_at_end()
         std::chrono::seconds total_time_played = g->time_played_at_last_load + time_since_load;
         get_event_bus().send<event_type::game_over>( total_time_played );
         // Struck the save_player_data here to forestall Weirdness
+        if (query_yn(_("你是否拒绝死亡？“是”将加载最后一次存档"))) {
+            // 不删档，直接加载上次自动存档
+            g->uquit == QUIT_NO;
+            g->quickload();
+            return false;     // 不结束游戏
+        }
         g->move_save_to_graveyard();
         g->write_memorial_file( g->stats().value_of( event_statistic_last_words )
                                 .get<cata_variant_type::string>() );
