@@ -137,7 +137,7 @@ bool cleanup_at_end()
         // Struck the save_player_data here to forestall Weirdness
         if (query_yn(_("你是否拒绝死亡？“是”将加载最后一次存档"))) {
             // 不删档，直接加载上次自动存档
-            g->uquit == QUIT_NO;
+            g->uquit = QUIT_NO;
             g->quickload();
             return false;     // 不结束游戏
         }

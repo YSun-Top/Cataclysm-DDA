@@ -236,6 +236,18 @@ if (NOT MSVC)
         set(CATA_WARNINGS "${CATA_WARNINGS} -Wno-unknown-warning-option")
     else()
         set(CATA_WARNINGS "${CATA_WARNINGS} -Wno-unknown-warning")
+        # GCC 16+ introduced -Wsfinae-incomplete which triggers on vehicle.h
+        # This flag is safely ignored by older GCC versions via -Wno-unknown-warning
+        set(CATA_WARNINGS "${CATA_WARNINGS} -Wno-sfinae-incomplete")
+        # GCC 16+ has false positives with -Wfree-nonheap-object in optimized builds
+        # e.g. input_context.cpp vector deallocation inlined into action_add
+        set(CATA_WARNINGS "${CATA_WARNINGS} -Wno-free-nonheap-object")
+        # GCC 16+ optimizer produces false array-bounds warnings with make_shared
+        # e.g. zzip.cpp zzip_flexbuffer_storage allocation
+        set(CATA_WARNINGS "${CATA_WARNINGS} -Wno-array-bounds")
+        # GCC 16+ optimizer produces false maybe-uninitialized warnings with iterators
+        # e.g. vehicle_use.cpp add_electronic_toggle vehicle_part_iterator
+        set(CATA_WARNINGS "${CATA_WARNINGS} -Wno-maybe-uninitialized")
     endif()
     if (NOT "${CMAKE_SYSTEM_NAME}" MATCHES "Windows")
         set(CATA_WARNINGS "${CATA_WARNINGS} -Wredundant-decls")

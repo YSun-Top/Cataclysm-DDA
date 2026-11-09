@@ -3003,7 +3003,7 @@ bool game::is_game_over()
     if( u.is_dead_state() ) {
         if (query_yn(_("你是否拒绝死亡？"))) {
             g->quickload();
-            g->uquit == QUIT_NO;
+            g->uquit = QUIT_NO;
             return false;
         }
         effect_on_conditions::prevent_death();
