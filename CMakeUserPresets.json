@@ -1,0 +1,37 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 20,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "wsl-x64-tiles-sounds",
+      "displayName": "WSL x64 Tiles Sounds (GCC)",
+      "description": "在 WSL (Arch Linux) 中使用 GCC 编译，配置与 VS MSVC 构建一致：TILES + SOUND + LOCALIZE。输出二进制在项目根目录。",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+        "DYNAMIC_LINKING": "True",
+        "CURSES": "False",
+        "TILES": "True",
+        "SOUND": "True",
+        "LOCALIZE": "True",
+        "TESTS": "True",
+        "BACKTRACE": "True",
+        "USE_PREFIX_DATA_DIR": "False",
+        "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "${sourceDir}",
+        "CMAKE_INSTALL_MESSAGE": "NEVER"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "wsl-x64-tiles-sounds",
+      "displayName": "WSL x64 Tiles Sounds - Build",
+      "configurePreset": "wsl-x64-tiles-sounds"
+    }
+  ]
+}
