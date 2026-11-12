@@ -1,0 +1,1811 @@
+[
+  {
+    "type": "ITEM",
+    "id": "backpack",
+    "copy-from": "backpack",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "25 L",
+        "max_contains_weight": "30 kg",
+        "max_item_length": "40 cm",
+        "moves": 300
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "510 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "24 cm",
+        "min_item_length": "18 cm",
+        "moves": 80,
+        "description": "Small pocket for a water bottle.",
+        "ripoff": 2
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "150 cm",
+        "min_item_length": "60 cm",
+        "moves": 200,
+        "description": "Tucked between your back and the backpack.",
+        "ripoff": 3,
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "120 cm",
+        "min_item_length": "20 cm",
+        "moves": 150,
+        "ripoff": 2,
+        "description": "Attached with a carabiner or strap.",
+        "activity_noise": {
+          "volume": 8,
+          "chance": 10
+        },
+        "transparent": true
+      }
+    ],
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 60,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "backpack_leather",
+    "copy-from": "backpack_leather",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "25 L",
+        "max_contains_weight": "30 kg",
+        "max_item_length": "40 cm",
+        "moves": 300
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "150 cm",
+        "min_item_length": "60 cm",
+        "moves": 200,
+        "description": "Tucked between your back and the backpack.",
+        "ripoff": 3,
+        "transparent": true
+      }
+    ],
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 60,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "backpack_denim",
+    "copy-from": "backpack_denim",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "25 L",
+        "max_contains_weight": "30 kg",
+        "max_item_length": "40 cm",
+        "moves": 300
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "510 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "24 cm",
+        "min_item_length": "18 cm",
+        "moves": 80,
+        "description": "Small pocket for a water bottle.",
+        "ripoff": 2
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "150 cm",
+        "min_item_length": "60 cm",
+        "moves": 200,
+        "description": "Tucked between your back and the backpack.",
+        "ripoff": 3,
+        "transparent": true
+      }
+    ],
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 60,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "daypack",
+    "copy-from": "daypack",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "24 L",
+        "max_contains_weight": "32 kg",
+        "max_item_length": "60 cm",
+        "magazine_well": "2 L",
+        "moves": 300
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "150 cm",
+        "min_item_length": "60 cm",
+        "moves": 200,
+        "description": "Tucked between your back and the backpack.",
+        "ripoff": 3,
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "510 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "24 cm",
+        "min_item_length": "18 cm",
+        "moves": 80,
+        "description": "Small pocket for a water bottle.",
+        "ripoff": 2
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "120 cm",
+        "min_item_length": "20 cm",
+        "moves": 150,
+        "ripoff": 2,
+        "description": "Attached with a carabiner or strap.",
+        "activity_noise": {
+          "volume": 8,
+          "chance": 10
+        },
+        "transparent": true
+      }
+    ],
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 100,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "makeshift_knapsack",
+    "copy-from": "makeshift_knapsack",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "10 kg",
+        "max_item_length": "70 cm",
+        "moves": 300
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "150 cm",
+        "min_item_length": "60 cm",
+        "moves": 200,
+        "description": "Tucked between your back and the backpack.",
+        "ripoff": 3,
+        "transparent": true
+      }
+    ],
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 60,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "duffelbag",
+    "copy-from": "duffelbag",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "60 L",
+        "max_contains_weight": "60 kg",
+        "max_item_length": "55 cm",
+        "magazine_well": "5 L",
+        "moves": 300
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "4 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "100 cm",
+        "min_item_length": "40 cm",
+        "moves": 80,
+        "description": "Tucked under the carry handles.",
+        "ripoff": 1,
+        "transparent": true
+      }
+    ],
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 100,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "boxpack",
+    "copy-from": "boxpack",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "max_contains_volume": "15 L",
+        "max_contains_weight": "60 kg",
+        "max_item_length": "50 cm",
+        "moves": 300
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "150 cm",
+        "min_item_length": "60 cm",
+        "moves": 200,
+        "description": "Tucked between your back and the backpack.",
+        "ripoff": 3,
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "120 cm",
+        "min_item_length": "20 cm",
+        "moves": 150,
+        "ripoff": 2,
+        "description": "Attached with a carabiner or strap.",
+        "activity_noise": {
+          "volume": 8,
+          "chance": 10
+        },
+        "transparent": true
+      }
+    ],
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 80,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "bigback",
+    "copy-from": "bigback",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "70 L",
+        "max_contains_weight": "70 kg",
+        "max_item_length": "75 cm",
+        "magazine_well": "10 L",
+        "moves": 300
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "10 kg",
+        "max_item_length": "40 cm",
+        "magazine_well": "1 L",
+        "moves": 200
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "3 L",
+        "max_contains_weight": "3 kg",
+        "max_item_length": "30 cm",
+        "magazine_well": "800 ml",
+        "moves": 120
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "3 L",
+        "max_contains_weight": "3 kg",
+        "max_item_length": "30 cm",
+        "magazine_well": "800 ml",
+        "moves": 120
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "4 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "100 cm",
+        "min_item_length": "40 cm",
+        "moves": 300,
+        "description": "Secured under compression straps or with a tool loop.",
+        "ripoff": 5,
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "4 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "100 cm",
+        "min_item_length": "40 cm",
+        "moves": 300,
+        "description": "Secured under compression straps or with a tool loop.",
+        "ripoff": 5,
+        "transparent": true
+      }
+    ],
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 100,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "molle_pack",
+    "copy-from": "molle_pack",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "40 kg",
+        "max_item_length": "50 cm",
+        "magazine_well": "5 L",
+        "moves": 300
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "3250 ml",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "30 cm",
+        "moves": 500,
+        "description": "Pouch sized for a hydration pack."
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "120 cm",
+        "min_item_length": "20 cm",
+        "moves": 150,
+        "ripoff": 2,
+        "description": "Attached with a carabiner or strap.",
+        "activity_noise": {
+          "volume": 8,
+          "chance": 10
+        },
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "120 cm",
+        "min_item_length": "20 cm",
+        "moves": 150,
+        "ripoff": 2,
+        "description": "Attached with a carabiner or strap.",
+        "activity_noise": {
+          "volume": 8,
+          "chance": 10
+        },
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "150 cm",
+        "min_item_length": "60 cm",
+        "moves": 200,
+        "description": "Tucked between your back and the backpack.",
+        "ripoff": 3,
+        "transparent": true
+      }
+    ],
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 70,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "rucksack",
+    "copy-from": "rucksack",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "40 L",
+        "max_contains_weight": "60 kg",
+        "max_item_length": "55 cm",
+        "magazine_well": "8 L",
+        "moves": 300
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "10 kg",
+        "max_item_length": "35 cm",
+        "magazine_well": "1 L",
+        "moves": 200
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "3 L",
+        "max_contains_weight": "3 kg",
+        "max_item_length": "30 cm",
+        "magazine_well": "800 ml",
+        "moves": 120
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "3 L",
+        "max_contains_weight": "3 kg",
+        "max_item_length": "30 cm",
+        "magazine_well": "800 ml",
+        "moves": 120
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "3250 ml",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "30 cm",
+        "moves": 500,
+        "description": "Pouch sized for a hydration pack."
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "150 cm",
+        "min_item_length": "60 cm",
+        "moves": 200,
+        "description": "Tucked between your back and the backpack.",
+        "ripoff": 3,
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "120 cm",
+        "min_item_length": "20 cm",
+        "moves": 150,
+        "ripoff": 2,
+        "description": "Attached with a carabiner or strap.",
+        "activity_noise": {
+          "volume": 8,
+          "chance": 10
+        },
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "120 cm",
+        "min_item_length": "20 cm",
+        "moves": 150,
+        "ripoff": 2,
+        "description": "Attached with a carabiner or strap.",
+        "activity_noise": {
+          "volume": 8,
+          "chance": 10
+        },
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "120 cm",
+        "min_item_length": "20 cm",
+        "moves": 150,
+        "ripoff": 2,
+        "description": "Attached with a carabiner or strap.",
+        "activity_noise": {
+          "volume": 8,
+          "chance": 10
+        },
+        "transparent": true
+      }
+    ],
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 80,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "backpack_hiking",
+    "copy-from": "backpack_hiking",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "50 L",
+        "max_contains_weight": "50 kg",
+        "max_item_length": "60 cm",
+        "magazine_well": "12 L",
+        "moves": 450
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "4 L",
+        "max_contains_weight": "8 kg",
+        "max_item_length": "35 cm",
+        "magazine_well": "1 L",
+        "moves": 450
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "2 L",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "25 cm",
+        "magazine_well": "500 ml",
+        "moves": 450
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "2 L",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "25 cm",
+        "magazine_well": "500 ml",
+        "moves": 450
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1 L",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "70 cm",
+        "moves": 40,
+        "holster": true,
+        "flag_restriction": [
+          "SHEATH_KNIFE",
+          "SHEATH_SWORD"
+        ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1 L",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "70 cm",
+        "moves": 40,
+        "holster": true,
+        "flag_restriction": [
+          "SHEATH_KNIFE",
+          "SHEATH_SWORD"
+        ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "3250 ml",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "30 cm",
+        "moves": 500,
+        "description": "Pouch sized for a hydration pack."
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "120 cm",
+        "min_item_length": "20 cm",
+        "moves": 150,
+        "ripoff": 2,
+        "description": "Attached with a carabiner or strap.",
+        "activity_noise": {
+          "volume": 8,
+          "chance": 10
+        },
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "120 cm",
+        "min_item_length": "20 cm",
+        "moves": 150,
+        "ripoff": 2,
+        "description": "Attached with a carabiner or strap.",
+        "activity_noise": {
+          "volume": 8,
+          "chance": 10
+        },
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "4 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "100 cm",
+        "min_item_length": "40 cm",
+        "moves": 300,
+        "description": "Secured under compression straps or with a tool loop.",
+        "ripoff": 5,
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "4 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "100 cm",
+        "min_item_length": "40 cm",
+        "moves": 300,
+        "description": "Secured under compression straps or with a tool loop.",
+        "ripoff": 5,
+        "transparent": true
+      }
+    ],
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 100,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "backpack_hunting",
+    "copy-from": "backpack_hunting",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "72 L",
+        "max_contains_weight": "50 kg",
+        "max_item_length": "80 cm",
+        "moves": 450
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "8 L",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "33 cm",
+        "moves": 200
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "510 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "24 cm",
+        "min_item_length": "18 cm",
+        "moves": 80,
+        "description": "Small pocket for a water bottle.",
+        "ripoff": 2
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "510 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "24 cm",
+        "min_item_length": "18 cm",
+        "moves": 80,
+        "description": "Small pocket for a water bottle.",
+        "ripoff": 2
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "3250 ml",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "30 cm",
+        "moves": 500,
+        "description": "Pouch sized for a hydration pack."
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "120 cm",
+        "min_item_length": "20 cm",
+        "moves": 150,
+        "ripoff": 2,
+        "description": "Attached with a carabiner or strap.",
+        "activity_noise": {
+          "volume": 8,
+          "chance": 10
+        },
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "120 cm",
+        "min_item_length": "20 cm",
+        "moves": 150,
+        "ripoff": 2,
+        "description": "Attached with a carabiner or strap.",
+        "activity_noise": {
+          "volume": 8,
+          "chance": 10
+        },
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "4 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "100 cm",
+        "min_item_length": "40 cm",
+        "moves": 300,
+        "description": "Secured under compression straps or with a tool loop.",
+        "ripoff": 5,
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "4 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "100 cm",
+        "min_item_length": "40 cm",
+        "moves": 300,
+        "description": "Secured under compression straps or with a tool loop.",
+        "ripoff": 5,
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "40 L",
+        "max_contains_weight": "30 kg",
+        "max_item_length": "100 cm",
+        "min_item_length": "40 cm",
+        "moves": 1000,
+        "description": "The pack has been slid away from the frame leaving room to store large items."
+      }
+    ],
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 100,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back",
+          "torso_waist"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "backpack_tactical_large",
+    "copy-from": "backpack_tactical_large",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "55 L",
+        "max_contains_weight": "70 kg",
+        "max_item_length": "70 cm",
+        "magazine_well": "10 L",
+        "moves": 300
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "10 kg",
+        "max_item_length": "40 cm",
+        "magazine_well": "1 L",
+        "moves": 200
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "3 L",
+        "max_contains_weight": "3 kg",
+        "max_item_length": "30 cm",
+        "magazine_well": "800 ml",
+        "moves": 120
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "3 L",
+        "max_contains_weight": "3 kg",
+        "max_item_length": "30 cm",
+        "magazine_well": "800 ml",
+        "moves": 120
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "120 cm",
+        "min_item_length": "20 cm",
+        "moves": 150,
+        "ripoff": 2,
+        "description": "Attached with a carabiner or strap.",
+        "activity_noise": {
+          "volume": 8,
+          "chance": 10
+        },
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "120 cm",
+        "min_item_length": "20 cm",
+        "moves": 150,
+        "ripoff": 2,
+        "description": "Attached with a carabiner or strap.",
+        "activity_noise": {
+          "volume": 8,
+          "chance": 10
+        },
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "120 cm",
+        "min_item_length": "20 cm",
+        "moves": 150,
+        "ripoff": 2,
+        "description": "Attached with a carabiner or strap.",
+        "activity_noise": {
+          "volume": 8,
+          "chance": 10
+        },
+        "transparent": true
+      }
+    ],
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 100,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "dry_duffelbag",
+    "copy-from": "dry_duffelbag",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "60 L",
+        "max_contains_weight": "90 kg",
+        "max_item_length": "65 cm",
+        "watertight": true,
+        "magazine_well": "5 L",
+        "moves": 450
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "4 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "100 cm",
+        "min_item_length": "40 cm",
+        "moves": 80,
+        "description": "Tucked under the carry handles.",
+        "ripoff": 1,
+        "transparent": true
+      }
+    ],
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 100,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "travelpack",
+    "copy-from": "travelpack",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "25 L",
+        "max_contains_weight": "40 kg",
+        "max_item_length": "50 cm",
+        "magazine_well": "4 L",
+        "moves": 300
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "4 L",
+        "max_contains_weight": "10 kg",
+        "max_item_length": "35 cm",
+        "magazine_well": "500 ml",
+        "moves": 200
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1 L",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "20 cm",
+        "magazine_well": "200 ml",
+        "moves": 120
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1 L",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "20 cm",
+        "magazine_well": "200 ml",
+        "moves": 120
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "510 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "24 cm",
+        "min_item_length": "18 cm",
+        "moves": 80,
+        "description": "Small pocket for a water bottle.",
+        "ripoff": 2
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "4 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "100 cm",
+        "min_item_length": "40 cm",
+        "moves": 300,
+        "description": "Secured under compression straps or with a tool loop.",
+        "ripoff": 5,
+        "transparent": true
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "4 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "100 cm",
+        "min_item_length": "40 cm",
+        "moves": 300,
+        "description": "Secured under compression straps or with a tool loop.",
+        "ripoff": 5,
+        "transparent": true
+      }
+    ],
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 80,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "backpack_giant",
+    "copy-from": "backpack_giant",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 100,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      },
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 60,
+        "covers": [
+          "leg_l",
+          "leg_r"
+        ],
+        "specifically_covers": [
+          "leg_upper_r",
+          "leg_upper_l"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "bindle",
+    "copy-from": "bindle",
+    "armor": [
+      {
+        "covers": [
+          "arm_l",
+          "arm_r"
+        ],
+        "coverage": 4,
+        "encumbrance": [
+          0,
+          0
+        ]
+      },
+      {
+        "covers": [
+          "hand_l",
+          "hand_r"
+        ],
+        "coverage": 4,
+        "encumbrance": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "plastic_shopping_bag",
+    "copy-from": "plastic_shopping_bag",
+    "armor": [
+      {
+        "covers": [
+          "arm_l",
+          "arm_r"
+        ],
+        "coverage": 4,
+        "encumbrance": [
+          0,
+          0
+        ]
+      },
+      {
+        "covers": [
+          "hand_l",
+          "hand_r"
+        ],
+        "coverage": 4,
+        "encumbrance": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "swag_bag",
+    "copy-from": "swag_bag",
+    "armor": [
+      {
+        "covers": [
+          "hand_l",
+          "hand_r"
+        ],
+        "coverage": 5,
+        "encumbrance": [
+          0,
+          0
+        ]
+      },
+      {
+        "covers": [
+          "arm_l",
+          "arm_r"
+        ],
+        "coverage": 5,
+        "encumbrance": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "briefcase",
+    "copy-from": "briefcase",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 10,
+        "covers": [
+          "arm_l",
+          "arm_r",
+          "hand_l",
+          "hand_r"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "case_violin",
+    "copy-from": "case_violin",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 10,
+        "covers": [
+          "arm_l",
+          "arm_r",
+          "hand_l",
+          "hand_r"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "straw_basket",
+    "copy-from": "straw_basket",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 4,
+        "covers": [
+          "arm_l",
+          "arm_r",
+          "hand_l",
+          "hand_r"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "suitcase_l",
+    "copy-from": "suitcase_l",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 5,
+        "covers": [
+          "arm_l",
+          "arm_r",
+          "hand_l",
+          "hand_r",
+          "leg_l",
+          "leg_r"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "suitcase_m",
+    "copy-from": "suitcase_m",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 5,
+        "covers": [
+          "arm_l",
+          "arm_r",
+          "hand_l",
+          "hand_r",
+          "leg_l",
+          "leg_r"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "golf_bag",
+    "copy-from": "golf_bag",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 70,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "jerrypack",
+    "copy-from": "jerrypack",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 80,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "petpack",
+    "copy-from": "petpack",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 100,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_front"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "purse",
+    "copy-from": "purse",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 25,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_front"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "ragpouch",
+    "copy-from": "ragpouch",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 100,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_waist"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "leather_pouch",
+    "copy-from": "leather_pouch",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 100,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_waist"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "fanny",
+    "copy-from": "fanny",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 10,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_lower"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "deployment_bag",
+    "copy-from": "deployment_bag",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 45,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_lower"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "dump_pouch",
+    "copy-from": "dump_pouch",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 100,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_waist"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "legrig",
+    "copy-from": "legrig",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 50,
+        "covers": [
+          "leg_l",
+          "leg_r"
+        ],
+        "specifically_covers": [
+          "leg_upper_r",
+          "leg_upper_l"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "mbag",
+    "copy-from": "mbag",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 60,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "slingpack",
+    "copy-from": "slingpack",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 60,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "runner_bag",
+    "copy-from": "runner_bag",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 40,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "net_backpack",
+    "copy-from": "net_backpack",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 40,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "wicker_backpack",
+    "copy-from": "wicker_backpack",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 50,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "makeshift_sling",
+    "copy-from": "makeshift_sling",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 80,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "dive_bag",
+    "copy-from": "dive_bag",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 80,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "dry_bag",
+    "copy-from": "dry_bag",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 80,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "vest",
+    "copy-from": "vest",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 60,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_upper"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "long_duffelbag",
+    "copy-from": "long_duffelbag",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 100,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "camera_bag",
+    "copy-from": "camera_bag",
+    "armor": [
+      {
+        "encumbrance": [
+          0,
+          0
+        ],
+        "coverage": 60,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_front"
+        ]
+      }
+    ]
+  }
+]

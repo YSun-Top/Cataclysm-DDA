@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "i_noencum_backpacks",
+    "name": "No encumbrance backpacks",
+    "authors": [ "Sai/Fentanylreactor" ],
+    "description": "不需要每次战斗都担心背包的累赘值，现在背包去掉了累赘值",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]
