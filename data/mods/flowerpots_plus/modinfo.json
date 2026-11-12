@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "flowerpots_plus",
+    "name": "FlowerPots++",
+    "authors": [ "Usagirei" ],
+    "description": "添加花盆以随时随地种植植物。",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]

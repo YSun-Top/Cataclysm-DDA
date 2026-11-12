@@ -1,0 +1,28 @@
+[
+  {
+    "type": "recipe",
+    "result": "portable_planter_m",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "survival", 3 ], [ "electronics", 5 ] ],
+    "difficulty": 3,
+    "time": "1 h",
+    "book_learn": [ [ "advanced_electronics", 5 ] ],
+    "decomp_learn": 6,
+    "autolearn": false,
+    "reversible": true,
+    "using": [ [ "soldering_standard", 20 ] ],
+    "components": [
+      [ [ "jerrycan", 1 ] ],
+      [ [ "material_soil", 1 ] ],
+      [ [ "pipe", 4 ] ],
+      [ [ "lightstrip_inactive", 2 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "plut_cell", 2 ] ],
+      [ [ "cable", 2 ] ],
+      [ [ "RTG_coffee", 1 ] ],
+      [ [ "e_scrap", 5 ] ]
+    ]
+  }
+]

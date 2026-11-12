@@ -1,0 +1,21 @@
+[
+  {
+    "id": "portable_planter_m",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "name": { "str": "portable planter (folded)" },
+    "description": "可折叠花盆槽内置于坚固的便携式箱中，可随时安装在您想要种植植物的任何地方。激活它，将其部署为一个可以在其中种植种子的花盆。解构部署的花盆，将其折叠回这个盒子里 - 里面生长的任何东西都会丢失。",
+    "weight": "10 kg",
+    "volume": "15 L",
+    "longest_side": "90 cm",
+    "price": "100 USD",
+    "price_postapoc": "20 USD",
+    "to_hit": { "grip": "bad", "length": "long", "surface": "any", "balance": "clumsy" },
+    "material": [ "plastic", "steel" ],
+    "symbol": "]",
+    "color": "yellow",
+    "category": "tools",
+    "flags": [ "NO_SALVAGE" ],
+    "use_action": { "type": "deploy_furn", "furn_type": "f_portable_planter_m" }
+  }
+]

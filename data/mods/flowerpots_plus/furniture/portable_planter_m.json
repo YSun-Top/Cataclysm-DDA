@@ -1,0 +1,63 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_portable_planter_m",
+    "name": "portable planter",
+    "description": "一个便携式花盆箱展开成一个装满土壤的槽。检查它以种植种子，就像花园花盆一样。",
+    "copy-from": "f_planter",
+    "deployed_item": "portable_planter_m",
+    "extend": { "flags": [ "EASY_DECONSTRUCT" ] },
+    "deconstruct": { "items": [ { "item": "portable_planter_m", "count": 1 } ] },
+    "plant_data": { "transform": "f_portable_planter_m_seed" }
+  },
+  {
+    "type": "furniture",
+    "id": "f_portable_planter_m_seed",
+    "name": "portable planter with seed",
+    "copy-from": "f_planter_seed",
+    "deployed_item": "portable_planter_m",
+    "extend": { "flags": [ "EASY_DECONSTRUCT" ] },
+    "deconstruct": { "items": [ { "item": "portable_planter_m", "count": 1 } ] },
+    "plant_data": { "transform": "f_portable_planter_m_seedling", "base": "f_portable_planter_m" }
+  },
+  {
+    "type": "furniture",
+    "id": "f_portable_planter_m_seedling",
+    "name": "portable planter with seedling",
+    "copy-from": "f_planter_seedling",
+    "deployed_item": "portable_planter_m",
+    "extend": { "flags": [ "EASY_DECONSTRUCT" ] },
+    "deconstruct": { "items": [ { "item": "portable_planter_m", "count": 1 } ] },
+    "plant_data": { "transform": "f_portable_planter_m_mature", "base": "f_portable_planter_m" }
+  },
+  {
+    "type": "furniture",
+    "id": "f_portable_planter_m_mature",
+    "name": "portable planter with mature plant",
+    "copy-from": "f_planter_mature",
+    "deployed_item": "portable_planter_m",
+    "extend": { "flags": [ "EASY_DECONSTRUCT" ] },
+    "deconstruct": { "items": [ { "item": "portable_planter_m", "count": 1 } ] },
+    "plant_data": { "transform": "f_portable_planter_m_harvest", "base": "f_portable_planter_m" }
+  },
+  {
+    "type": "furniture",
+    "id": "f_portable_planter_m_harvest",
+    "name": "portable planter with harvestable plant",
+    "copy-from": "f_planter_harvest",
+    "deployed_item": "portable_planter_m",
+    "extend": { "flags": [ "EASY_DECONSTRUCT" ] },
+    "deconstruct": { "items": [ { "item": "portable_planter_m", "count": 1 } ] },
+    "plant_data": { "transform": "f_portable_planter_m_overgrown", "base": "f_portable_planter_m" }
+  },
+  {
+    "type": "furniture",
+    "id": "f_portable_planter_m_overgrown",
+    "name": "portable planter with dead plant",
+    "copy-from": "f_planter_unharvested_overgrown",
+    "deployed_item": "portable_planter_m",
+    "extend": { "flags": [ "EASY_DECONSTRUCT" ] },
+    "deconstruct": { "items": [ { "item": "portable_planter_m", "count": 1 } ] },
+    "plant_data": { "transform": "f_portable_planter_m_overgrown", "base": "f_portable_planter_m" }
+  }
+]
