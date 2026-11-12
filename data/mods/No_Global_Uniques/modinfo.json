@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "no_global_uniques",
+    "name": "No Global Uniques",
+    "authors": [ "YellowbakaFan" ],
+    "description": "使所有特殊地点不再是全球唯一的！",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]
