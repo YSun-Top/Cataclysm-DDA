@@ -1,0 +1,9 @@
+[
+  {
+    "type": "enchantment",
+    "id": "ench_speedydex_dex_speed",
+    "//": "T这里的敏捷值计算方式如下：(敏捷值 - MIN_DEX) * MOVES_PER_DEX，与 BN 原版一样被限制为 0。将 MOVES_PER_DEX 提升至 5，在敏捷值为 20 时速度提升 50%；同时取消 max() 调用，以允许在敏捷值低于 MIN_DEX 时受到惩罚。",
+    "condition": "ALWAYS",
+    "values": [ { "value": "SPEED", "add": { "math": [ "max( ( u_val('dexterity') - 10 ) * 2, 0 )" ] } } ]
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "speedydex",
+    "name": "Speedy Dex",
+    "authors": [ "YSun-Top" ],
+    "description": "敏捷度直接影响你的速度。每超出10点的敏捷度，你就能获得2个额外的动作，且所有动作模式都适用。",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SPEEDYDEX_APPLY",
+    "//": "每个字符会触发一次携带效果，如果有任何因素消除该效果，就会再次触发。敏捷数值每回合由法术缓存重新评估，因此只需定期触发效果即可。",
+    "recurrence": "1 minutes",
+    "condition": { "not": { "u_has_effect": "effect_speedydex" } },
+    "effect": [ { "u_add_effect": "effect_speedydex", "duration": "PERMANENT" } ]
+  }
+]

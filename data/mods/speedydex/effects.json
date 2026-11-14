@@ -1,0 +1,16 @@
+[
+  {
+    "type": "effect_type",
+    "id": "effect_speedydex",
+    "//": "Carrier for the Speedy Dex enchantment; handed out permanently by EOC_SPEEDYDEX_APPLY so that every character, NPCs included, gets it.",
+    "name": [ "Quick Reflexes" ],
+    "desc": [
+      "你的协调能力和反应速度直接转化为实际速度。你的手脚动作越快，每转身就能完成更多动作。"
+    ],
+    "rating": "good",
+    "apply_message": "",
+    "remove_message": "",
+    "show_in_info": true,
+    "enchantments": [ "ench_speedydex_dex_speed" ]
+  }
+]
