@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "underground_dynamic_temperature",
+    "name": "地下动态温度",
+    "authors": [ "YSun-Top" ],
+    "description": "让地下温度按层级向地表温度靠拢：z=-1 保留一半的地表温差，z=-2 保留四分之一，z<=-3 完全保持恒温基线。纯数据实现，由周期性 EoC 把温差以隐形温度场注入玩家身边的地块。",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]

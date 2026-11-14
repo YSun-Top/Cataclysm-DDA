@@ -1,0 +1,61 @@
+[
+  {
+    "type": "field_type",
+    "id": "fd_udt_cold_coarse",
+    "//": "不可见的温差载体，只用于向 map 注入 convection_temperature_mod（华氏度增量）。",
+    "//1": "粗调每级 10F，细调每级 2F，合计可覆盖 0-36F（约 0-20C）的偏移量。由 eoc_udt_underground_drift 差分施加。",
+    "//2": "half_life 比刷新周期（5 分钟）长，因此地下期间靠重新补差保持强度稳定；离场/下楼后则由它逐级衰减自行清除（每级一个 half_life）。",
+    "intensity_levels": [
+      { "name": "阴冷的空气", "sym": " ", "convection_temperature_mod": -10 },
+      { "color": "blue", "convection_temperature_mod": -20 },
+      { "color": "cyan", "convection_temperature_mod": -30 }
+    ],
+    "decay_amount_factor": 5,
+    "percent_spread": 0,
+    "priority": -1,
+    "half_life": "10 minutes",
+    "phase": "gas"
+  },
+  {
+    "type": "field_type",
+    "id": "fd_udt_cold_fine",
+    "intensity_levels": [
+      { "name": "阴冷的空气", "sym": " ", "convection_temperature_mod": -2 },
+      { "color": "blue", "convection_temperature_mod": -4 },
+      { "color": "cyan", "convection_temperature_mod": -6 }
+    ],
+    "decay_amount_factor": 5,
+    "percent_spread": 0,
+    "priority": -1,
+    "half_life": "10 minutes",
+    "phase": "gas"
+  },
+  {
+    "type": "field_type",
+    "id": "fd_udt_hot_coarse",
+    "intensity_levels": [
+      { "name": "温暖的空气", "sym": " ", "convection_temperature_mod": 10 },
+      { "color": "yellow", "convection_temperature_mod": 20 },
+      { "color": "red", "convection_temperature_mod": 30 }
+    ],
+    "decay_amount_factor": 5,
+    "percent_spread": 0,
+    "priority": -1,
+    "half_life": "10 minutes",
+    "phase": "gas"
+  },
+  {
+    "type": "field_type",
+    "id": "fd_udt_hot_fine",
+    "intensity_levels": [
+      { "name": "温暖的空气", "sym": " ", "convection_temperature_mod": 2 },
+      { "color": "yellow", "convection_temperature_mod": 4 },
+      { "color": "red", "convection_temperature_mod": 6 }
+    ],
+    "decay_amount_factor": 5,
+    "percent_spread": 0,
+    "priority": -1,
+    "half_life": "10 minutes",
+    "phase": "gas"
+  }
+]

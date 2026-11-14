@@ -1,0 +1,76 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "eoc_udt_underground_drift",
+    "//": "复刻 Cataclysm-BN 的 UNDERGROUND_TEMPERATURE_INFLUENCED_BY_SURFACE 行为，但不改源码：",
+    "//1": "目标温度 = 基线 + factor(z) * (地表温度 - 基线)，而引擎给的地下地块温度 = 基线 + 场温差之和，",
+    "//2": "所以只需注入 delta = factor(z) * (地表温度 - 基线)。weather('temperature') 与 z 无关，玩家在地下读到的仍是地表气温。",
+    "//3": "带 recurrence 的 RECURRING EoC 会在创建角色/读档时自动入队，无需挂载到特质或道具上。",
+    "//4": "delta 上限 36F（粗调 3 级 * 10F + 细调 3 级 * 2F），量化步长 2F；超出上限的极端地表温差会饱和。基线取 UNDERGROUND_BASE_TEMP_C。",
+    "//5": "注意：jmath 的一个 math 成员只对应一条语句（数组元素会被无分隔拼接成一个表达式），因此每条赋值各占一个 math 效果对象；同一次激活内变量共享。",
+    "//6": "points_in_radius 默认 radiusz=0，所以场只铺在玩家当前层；上下楼时旧的场不会污染地表温度（地表用 weather 温度，不含地下基线）。",
+    "//7": "已知局限：JSON 没有清除场的效果，冷热两侧各自最多累积 3 级；若地表温差在几分钟内大幅反向摆动，可能因残留场而达不到目标偏移，需靠 half_life 逐级衰减自行 unwind。",
+    "recurrence": "5 m",
+    "global": true,
+    "condition": { "math": [ "u_val( 'pos_z' ) < 0" ] },
+    "effect": [
+      { "math": [ "udt_z = u_val( 'pos_z' )" ] },
+      {
+        "math": [ "udt_diff_f = ( celsius( weather( 'temperature' ) ) - game_option( 'UNDERGROUND_BASE_TEMP_C' ) ) * 1.8" ]
+      },
+      { "math": [ "udt_want = udt_z == -1 ? udt_diff_f * 0.5 : 0" ] },
+      { "math": [ "udt_want = udt_z == -2 ? udt_diff_f * 0.25 : udt_want" ] },
+      { "math": [ "udt_want = round( udt_want )" ] },
+      {
+        "math": [
+          "udt_net = 10 * ( u_field_strength( 'fd_udt_hot_coarse' ) - u_field_strength( 'fd_udt_cold_coarse' ) ) + 2 * ( u_field_strength( 'fd_udt_hot_fine' ) - u_field_strength( 'fd_udt_cold_fine' ) )"
+        ]
+      },
+      { "math": [ "udt_gap = udt_want - udt_net" ] },
+      {
+        "if": { "math": [ "udt_gap >= 2" ] },
+        "then": [
+          {
+            "//": "add_field 对同类型是累加的，所以只补差额；下调交给 half_life 自然衰减。",
+            "math": [ "udt_add_coarse = min( 3 - u_field_strength( 'fd_udt_hot_coarse' ), floor( udt_gap / 10 ) )" ]
+          },
+          {
+            "math": [ "udt_add_fine = min( 3 - u_field_strength( 'fd_udt_hot_fine' ), floor( ( udt_gap - 10 * udt_add_coarse ) / 2 ) )" ]
+          },
+          {
+            "if": { "math": [ "udt_add_coarse > 0" ] },
+            "then": [
+              { "u_set_field": "fd_udt_hot_coarse", "intensity": { "math": [ "udt_add_coarse" ] }, "radius": 2, "hit_player": false }
+            ]
+          },
+          {
+            "if": { "math": [ "udt_add_fine > 0" ] },
+            "then": [ { "u_set_field": "fd_udt_hot_fine", "intensity": { "math": [ "udt_add_fine" ] }, "radius": 2, "hit_player": false } ]
+          }
+        ]
+      },
+      {
+        "if": { "math": [ "udt_gap <= -2" ] },
+        "then": [
+          { "math": [ "udt_need = abs( udt_gap )" ] },
+          {
+            "math": [ "udt_add_coarse = min( 3 - u_field_strength( 'fd_udt_cold_coarse' ), floor( udt_need / 10 ) )" ]
+          },
+          {
+            "math": [ "udt_add_fine = min( 3 - u_field_strength( 'fd_udt_cold_fine' ), floor( ( udt_need - 10 * udt_add_coarse ) / 2 ) )" ]
+          },
+          {
+            "if": { "math": [ "udt_add_coarse > 0" ] },
+            "then": [
+              { "u_set_field": "fd_udt_cold_coarse", "intensity": { "math": [ "udt_add_coarse" ] }, "radius": 2, "hit_player": false }
+            ]
+          },
+          {
+            "if": { "math": [ "udt_add_fine > 0" ] },
+            "then": [ { "u_set_field": "fd_udt_cold_fine", "intensity": { "math": [ "udt_add_fine" ] }, "radius": 2, "hit_player": false } ]
+          }
+        ]
+      }
+    ]
+  }
+]

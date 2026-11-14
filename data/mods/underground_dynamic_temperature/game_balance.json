@@ -1,0 +1,11 @@
+[
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "UNDERGROUND_BASE_TEMP_C",
+    "//": "必须等于当前 region 设置里的 weather.base_temperature（摄氏度），即游戏原本的地下恒温基线。",
+    "//1": "原版 6.5；classic_zombies 5.5；desert_region 11.0；rural_biome 6.5；TropiCataclysm 16.0；aftershock_exoplanet -50.0；Backrooms 6.5。",
+    "//2": "数值不一致只会让偏移量产生固定比例的误差（z=-1 时误差 = 偏差的一半，z=-2 时为四分之一），不会报错。",
+    "stype": "float",
+    "value": 6.5
+  }
+]
