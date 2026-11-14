@@ -3,56 +3,6552 @@
     "type": "overmap_special",
     "id": "aircraft_carrier",
     "copy-from": "aircraft_carrier",
-    "delete": { "flags": [ "GLOBALLY_UNIQUE" ] },
-    "extend": { "flags": [ "UNIQUE" ] }
+    "delete": {
+      "flags": [
+        "GLOBALLY_UNIQUE"
+      ]
+    },
+    "extend": {
+      "flags": [
+        "OVERMAP_UNIQUE"
+      ]
+    },
+    "occurrences": [
+      50,
+      100
+    ],
+    "overmaps": [
+      {
+        "point": [
+          -1,
+          -1,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          -1,
+          0,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          -1,
+          1,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          -1,
+          2,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          -1,
+          3,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          -1,
+          4,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          -1,
+          5,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          -1,
+          6,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          -1,
+          7,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          -1,
+          8,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          -1,
+          9,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          -1,
+          10,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          -1,
+          11,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          -1,
+          12,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          -1,
+          13,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          3,
+          -1,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          3,
+          0,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          3,
+          1,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          3,
+          2,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          3,
+          3,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          3,
+          4,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          3,
+          5,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          3,
+          6,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          3,
+          7,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          3,
+          8,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          3,
+          9,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          3,
+          10,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          3,
+          11,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          3,
+          12,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          3,
+          13,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          0,
+          -1,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          1,
+          -1,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          2,
+          -1,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          0,
+          13,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          1,
+          13,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          2,
+          13,
+          0
+        ],
+        "overmap": "lake_surface"
+      },
+      {
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "overmap": "aircraft_carrier_1a_north"
+      },
+      {
+        "point": [
+          1,
+          0,
+          0
+        ],
+        "overmap": "aircraft_carrier_1b_north"
+      },
+      {
+        "point": [
+          2,
+          0,
+          0
+        ],
+        "overmap": "aircraft_carrier_1c_north"
+      },
+      {
+        "point": [
+          0,
+          1,
+          0
+        ],
+        "overmap": "aircraft_carrier_2a_north"
+      },
+      {
+        "point": [
+          1,
+          1,
+          0
+        ],
+        "overmap": "aircraft_carrier_2b_north"
+      },
+      {
+        "point": [
+          2,
+          1,
+          0
+        ],
+        "overmap": "aircraft_carrier_2c_north"
+      },
+      {
+        "point": [
+          0,
+          2,
+          0
+        ],
+        "overmap": "aircraft_carrier_3a_north"
+      },
+      {
+        "point": [
+          1,
+          2,
+          0
+        ],
+        "overmap": "aircraft_carrier_3b_north"
+      },
+      {
+        "point": [
+          2,
+          2,
+          0
+        ],
+        "overmap": "aircraft_carrier_3c_north"
+      },
+      {
+        "point": [
+          0,
+          3,
+          0
+        ],
+        "overmap": "aircraft_carrier_4a_north"
+      },
+      {
+        "point": [
+          1,
+          3,
+          0
+        ],
+        "overmap": "aircraft_carrier_4b_north"
+      },
+      {
+        "point": [
+          2,
+          3,
+          0
+        ],
+        "overmap": "aircraft_carrier_4c_north"
+      },
+      {
+        "point": [
+          0,
+          4,
+          0
+        ],
+        "overmap": "aircraft_carrier_5a_north"
+      },
+      {
+        "point": [
+          1,
+          4,
+          0
+        ],
+        "overmap": "aircraft_carrier_5b_north"
+      },
+      {
+        "point": [
+          2,
+          4,
+          0
+        ],
+        "overmap": "aircraft_carrier_5c_north"
+      },
+      {
+        "point": [
+          0,
+          5,
+          0
+        ],
+        "overmap": "aircraft_carrier_6a_north"
+      },
+      {
+        "point": [
+          1,
+          5,
+          0
+        ],
+        "overmap": "aircraft_carrier_6b_north"
+      },
+      {
+        "point": [
+          2,
+          5,
+          0
+        ],
+        "overmap": "aircraft_carrier_6c_north"
+      },
+      {
+        "point": [
+          0,
+          6,
+          0
+        ],
+        "overmap": "aircraft_carrier_7a_north"
+      },
+      {
+        "point": [
+          1,
+          6,
+          0
+        ],
+        "overmap": "aircraft_carrier_7b_north"
+      },
+      {
+        "point": [
+          2,
+          6,
+          0
+        ],
+        "overmap": "aircraft_carrier_7c_north"
+      },
+      {
+        "point": [
+          0,
+          7,
+          0
+        ],
+        "overmap": "aircraft_carrier_8a_north"
+      },
+      {
+        "point": [
+          1,
+          7,
+          0
+        ],
+        "overmap": "aircraft_carrier_8b_north"
+      },
+      {
+        "point": [
+          2,
+          7,
+          0
+        ],
+        "overmap": "aircraft_carrier_8c_north"
+      },
+      {
+        "point": [
+          0,
+          8,
+          0
+        ],
+        "overmap": "aircraft_carrier_9a_north"
+      },
+      {
+        "point": [
+          1,
+          8,
+          0
+        ],
+        "overmap": "aircraft_carrier_9b_north"
+      },
+      {
+        "point": [
+          2,
+          8,
+          0
+        ],
+        "overmap": "aircraft_carrier_9c_north"
+      },
+      {
+        "point": [
+          0,
+          9,
+          0
+        ],
+        "overmap": "aircraft_carrier_10a_north"
+      },
+      {
+        "point": [
+          1,
+          9,
+          0
+        ],
+        "overmap": "aircraft_carrier_10b_north"
+      },
+      {
+        "point": [
+          2,
+          9,
+          0
+        ],
+        "overmap": "aircraft_carrier_10c_north"
+      },
+      {
+        "point": [
+          0,
+          10,
+          0
+        ],
+        "overmap": "aircraft_carrier_11a_north"
+      },
+      {
+        "point": [
+          1,
+          10,
+          0
+        ],
+        "overmap": "aircraft_carrier_11b_north"
+      },
+      {
+        "point": [
+          2,
+          10,
+          0
+        ],
+        "overmap": "aircraft_carrier_11c_north"
+      },
+      {
+        "point": [
+          0,
+          11,
+          0
+        ],
+        "overmap": "aircraft_carrier_12a_north"
+      },
+      {
+        "point": [
+          1,
+          11,
+          0
+        ],
+        "overmap": "aircraft_carrier_12b_north"
+      },
+      {
+        "point": [
+          2,
+          11,
+          0
+        ],
+        "overmap": "aircraft_carrier_12c_north"
+      },
+      {
+        "point": [
+          0,
+          12,
+          0
+        ],
+        "overmap": "aircraft_carrier_13a_north"
+      },
+      {
+        "point": [
+          1,
+          12,
+          0
+        ],
+        "overmap": "aircraft_carrier_13b_north"
+      },
+      {
+        "point": [
+          2,
+          12,
+          0
+        ],
+        "overmap": "aircraft_carrier_13c_north"
+      },
+      {
+        "point": [
+          0,
+          0,
+          -1
+        ],
+        "overmap": "aircraft_carrier_1a_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          1,
+          0,
+          -1
+        ],
+        "overmap": "aircraft_carrier_1b_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          2,
+          0,
+          -1
+        ],
+        "overmap": "aircraft_carrier_1c_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          0,
+          1,
+          -1
+        ],
+        "overmap": "aircraft_carrier_2a_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          1,
+          1,
+          -1
+        ],
+        "overmap": "aircraft_carrier_2b_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          2,
+          1,
+          -1
+        ],
+        "overmap": "aircraft_carrier_2c_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          0,
+          2,
+          -1
+        ],
+        "overmap": "aircraft_carrier_3a_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          1,
+          2,
+          -1
+        ],
+        "overmap": "aircraft_carrier_3b_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          2,
+          2,
+          -1
+        ],
+        "overmap": "aircraft_carrier_3c_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          0,
+          3,
+          -1
+        ],
+        "overmap": "aircraft_carrier_4a_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          1,
+          3,
+          -1
+        ],
+        "overmap": "aircraft_carrier_4b_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          2,
+          3,
+          -1
+        ],
+        "overmap": "aircraft_carrier_4c_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          0,
+          4,
+          -1
+        ],
+        "overmap": "aircraft_carrier_5a_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          1,
+          4,
+          -1
+        ],
+        "overmap": "aircraft_carrier_5b_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          2,
+          4,
+          -1
+        ],
+        "overmap": "aircraft_carrier_5c_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          0,
+          5,
+          -1
+        ],
+        "overmap": "aircraft_carrier_6a_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          1,
+          5,
+          -1
+        ],
+        "overmap": "aircraft_carrier_6b_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          2,
+          5,
+          -1
+        ],
+        "overmap": "aircraft_carrier_6c_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          0,
+          6,
+          -1
+        ],
+        "overmap": "aircraft_carrier_7a_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          1,
+          6,
+          -1
+        ],
+        "overmap": "aircraft_carrier_7b_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          2,
+          6,
+          -1
+        ],
+        "overmap": "aircraft_carrier_7c_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          0,
+          7,
+          -1
+        ],
+        "overmap": "aircraft_carrier_8a_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          1,
+          7,
+          -1
+        ],
+        "overmap": "aircraft_carrier_8b_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          2,
+          7,
+          -1
+        ],
+        "overmap": "aircraft_carrier_8c_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          0,
+          8,
+          -1
+        ],
+        "overmap": "aircraft_carrier_9a_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          1,
+          8,
+          -1
+        ],
+        "overmap": "aircraft_carrier_9b_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          2,
+          8,
+          -1
+        ],
+        "overmap": "aircraft_carrier_9c_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          0,
+          9,
+          -1
+        ],
+        "overmap": "aircraft_carrier_10a_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          1,
+          9,
+          -1
+        ],
+        "overmap": "aircraft_carrier_10b_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          2,
+          9,
+          -1
+        ],
+        "overmap": "aircraft_carrier_10c_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          0,
+          10,
+          -1
+        ],
+        "overmap": "aircraft_carrier_11a_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          1,
+          10,
+          -1
+        ],
+        "overmap": "aircraft_carrier_11b_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          2,
+          10,
+          -1
+        ],
+        "overmap": "aircraft_carrier_11c_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          0,
+          11,
+          -1
+        ],
+        "overmap": "aircraft_carrier_12a_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          1,
+          11,
+          -1
+        ],
+        "overmap": "aircraft_carrier_12b_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          2,
+          11,
+          -1
+        ],
+        "overmap": "aircraft_carrier_12c_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          0,
+          12,
+          -1
+        ],
+        "overmap": "aircraft_carrier_13a_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          1,
+          12,
+          -1
+        ],
+        "overmap": "aircraft_carrier_13b_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          2,
+          12,
+          -1
+        ],
+        "overmap": "aircraft_carrier_13c_-1_north",
+        "locations": [
+          "lake_water_cube"
+        ]
+      },
+      {
+        "point": [
+          0,
+          0,
+          1
+        ],
+        "overmap": "aircraft_carrier_1a_1_north"
+      },
+      {
+        "point": [
+          1,
+          0,
+          1
+        ],
+        "overmap": "aircraft_carrier_1b_1_north"
+      },
+      {
+        "point": [
+          2,
+          0,
+          1
+        ],
+        "overmap": "aircraft_carrier_1c_1_north"
+      },
+      {
+        "point": [
+          0,
+          1,
+          1
+        ],
+        "overmap": "aircraft_carrier_2a_1_north"
+      },
+      {
+        "point": [
+          1,
+          1,
+          1
+        ],
+        "overmap": "aircraft_carrier_2b_1_north"
+      },
+      {
+        "point": [
+          2,
+          1,
+          1
+        ],
+        "overmap": "aircraft_carrier_2c_1_north"
+      },
+      {
+        "point": [
+          0,
+          2,
+          1
+        ],
+        "overmap": "aircraft_carrier_3a_1_north"
+      },
+      {
+        "point": [
+          1,
+          2,
+          1
+        ],
+        "overmap": "aircraft_carrier_3b_1_north"
+      },
+      {
+        "point": [
+          2,
+          2,
+          1
+        ],
+        "overmap": "aircraft_carrier_3c_1_north"
+      },
+      {
+        "point": [
+          0,
+          3,
+          1
+        ],
+        "overmap": "aircraft_carrier_4a_1_north"
+      },
+      {
+        "point": [
+          1,
+          3,
+          1
+        ],
+        "overmap": "aircraft_carrier_4b_1_north"
+      },
+      {
+        "point": [
+          2,
+          3,
+          1
+        ],
+        "overmap": "aircraft_carrier_4c_1_north"
+      },
+      {
+        "point": [
+          0,
+          4,
+          1
+        ],
+        "overmap": "aircraft_carrier_5a_1_north"
+      },
+      {
+        "point": [
+          1,
+          4,
+          1
+        ],
+        "overmap": "aircraft_carrier_5b_1_north"
+      },
+      {
+        "point": [
+          2,
+          4,
+          1
+        ],
+        "overmap": "aircraft_carrier_5c_1_north"
+      },
+      {
+        "point": [
+          0,
+          5,
+          1
+        ],
+        "overmap": "aircraft_carrier_6a_1_north"
+      },
+      {
+        "point": [
+          1,
+          5,
+          1
+        ],
+        "overmap": "aircraft_carrier_6b_1_north"
+      },
+      {
+        "point": [
+          2,
+          5,
+          1
+        ],
+        "overmap": "aircraft_carrier_6c_1_north"
+      },
+      {
+        "point": [
+          0,
+          6,
+          1
+        ],
+        "overmap": "aircraft_carrier_7a_1_north"
+      },
+      {
+        "point": [
+          1,
+          6,
+          1
+        ],
+        "overmap": "aircraft_carrier_7b_1_north"
+      },
+      {
+        "point": [
+          2,
+          6,
+          1
+        ],
+        "overmap": "aircraft_carrier_7c_1_north"
+      },
+      {
+        "point": [
+          0,
+          7,
+          1
+        ],
+        "overmap": "aircraft_carrier_8a_1_north"
+      },
+      {
+        "point": [
+          1,
+          7,
+          1
+        ],
+        "overmap": "aircraft_carrier_8b_1_north"
+      },
+      {
+        "point": [
+          2,
+          7,
+          1
+        ],
+        "overmap": "aircraft_carrier_8c_1_north"
+      },
+      {
+        "point": [
+          0,
+          8,
+          1
+        ],
+        "overmap": "aircraft_carrier_9a_1_north"
+      },
+      {
+        "point": [
+          1,
+          8,
+          1
+        ],
+        "overmap": "aircraft_carrier_9b_1_north"
+      },
+      {
+        "point": [
+          2,
+          8,
+          1
+        ],
+        "overmap": "aircraft_carrier_9c_1_north"
+      },
+      {
+        "point": [
+          0,
+          9,
+          1
+        ],
+        "overmap": "aircraft_carrier_10a_1_north"
+      },
+      {
+        "point": [
+          1,
+          9,
+          1
+        ],
+        "overmap": "aircraft_carrier_10b_1_north"
+      },
+      {
+        "point": [
+          2,
+          9,
+          1
+        ],
+        "overmap": "aircraft_carrier_10c_1_north"
+      },
+      {
+        "point": [
+          0,
+          10,
+          1
+        ],
+        "overmap": "aircraft_carrier_11a_1_north"
+      },
+      {
+        "point": [
+          1,
+          10,
+          1
+        ],
+        "overmap": "aircraft_carrier_11b_1_north"
+      },
+      {
+        "point": [
+          2,
+          10,
+          1
+        ],
+        "overmap": "aircraft_carrier_11c_1_north"
+      },
+      {
+        "point": [
+          0,
+          11,
+          1
+        ],
+        "overmap": "aircraft_carrier_12a_1_north"
+      },
+      {
+        "point": [
+          1,
+          11,
+          1
+        ],
+        "overmap": "aircraft_carrier_12b_1_north"
+      },
+      {
+        "point": [
+          2,
+          11,
+          1
+        ],
+        "overmap": "aircraft_carrier_12c_1_north"
+      },
+      {
+        "point": [
+          0,
+          12,
+          1
+        ],
+        "overmap": "aircraft_carrier_13a_1_north"
+      },
+      {
+        "point": [
+          1,
+          12,
+          1
+        ],
+        "overmap": "aircraft_carrier_13b_1_north"
+      },
+      {
+        "point": [
+          2,
+          12,
+          1
+        ],
+        "overmap": "aircraft_carrier_13c_1_north"
+      },
+      {
+        "point": [
+          0,
+          0,
+          2
+        ],
+        "overmap": "aircraft_carrier_1a_2_north"
+      },
+      {
+        "point": [
+          1,
+          0,
+          2
+        ],
+        "overmap": "aircraft_carrier_1b_2_north"
+      },
+      {
+        "point": [
+          2,
+          0,
+          2
+        ],
+        "overmap": "aircraft_carrier_1c_2_north"
+      },
+      {
+        "point": [
+          0,
+          1,
+          2
+        ],
+        "overmap": "aircraft_carrier_2a_2_north"
+      },
+      {
+        "point": [
+          1,
+          1,
+          2
+        ],
+        "overmap": "aircraft_carrier_2b_2_north"
+      },
+      {
+        "point": [
+          2,
+          1,
+          2
+        ],
+        "overmap": "aircraft_carrier_2c_2_north"
+      },
+      {
+        "point": [
+          0,
+          2,
+          2
+        ],
+        "overmap": "aircraft_carrier_3a_2_north"
+      },
+      {
+        "point": [
+          1,
+          2,
+          2
+        ],
+        "overmap": "aircraft_carrier_3b_2_north"
+      },
+      {
+        "point": [
+          2,
+          2,
+          2
+        ],
+        "overmap": "aircraft_carrier_3c_2_north"
+      },
+      {
+        "point": [
+          0,
+          3,
+          2
+        ],
+        "overmap": "aircraft_carrier_4a_2_north"
+      },
+      {
+        "point": [
+          1,
+          3,
+          2
+        ],
+        "overmap": "aircraft_carrier_4b_2_north"
+      },
+      {
+        "point": [
+          2,
+          3,
+          2
+        ],
+        "overmap": "aircraft_carrier_4c_2_north"
+      },
+      {
+        "point": [
+          0,
+          4,
+          2
+        ],
+        "overmap": "aircraft_carrier_5a_2_north"
+      },
+      {
+        "point": [
+          1,
+          4,
+          2
+        ],
+        "overmap": "aircraft_carrier_5b_2_north"
+      },
+      {
+        "point": [
+          2,
+          4,
+          2
+        ],
+        "overmap": "aircraft_carrier_5c_2_north"
+      },
+      {
+        "point": [
+          0,
+          5,
+          2
+        ],
+        "overmap": "aircraft_carrier_6a_2_north"
+      },
+      {
+        "point": [
+          1,
+          5,
+          2
+        ],
+        "overmap": "aircraft_carrier_6b_2_north"
+      },
+      {
+        "point": [
+          2,
+          5,
+          2
+        ],
+        "overmap": "aircraft_carrier_6c_2_north"
+      },
+      {
+        "point": [
+          0,
+          6,
+          2
+        ],
+        "overmap": "aircraft_carrier_7a_2_north"
+      },
+      {
+        "point": [
+          1,
+          6,
+          2
+        ],
+        "overmap": "aircraft_carrier_7b_2_north"
+      },
+      {
+        "point": [
+          2,
+          6,
+          2
+        ],
+        "overmap": "aircraft_carrier_7c_2_north"
+      },
+      {
+        "point": [
+          0,
+          7,
+          2
+        ],
+        "overmap": "aircraft_carrier_8a_2_north"
+      },
+      {
+        "point": [
+          1,
+          7,
+          2
+        ],
+        "overmap": "aircraft_carrier_8b_2_north"
+      },
+      {
+        "point": [
+          2,
+          7,
+          2
+        ],
+        "overmap": "aircraft_carrier_8c_2_north"
+      },
+      {
+        "point": [
+          0,
+          8,
+          2
+        ],
+        "overmap": "aircraft_carrier_9a_2_north"
+      },
+      {
+        "point": [
+          1,
+          8,
+          2
+        ],
+        "overmap": "aircraft_carrier_9b_2_north"
+      },
+      {
+        "point": [
+          2,
+          8,
+          2
+        ],
+        "overmap": "aircraft_carrier_9c_2_north"
+      },
+      {
+        "point": [
+          0,
+          9,
+          2
+        ],
+        "overmap": "aircraft_carrier_10a_2_north"
+      },
+      {
+        "point": [
+          1,
+          9,
+          2
+        ],
+        "overmap": "aircraft_carrier_10b_2_north"
+      },
+      {
+        "point": [
+          2,
+          9,
+          2
+        ],
+        "overmap": "aircraft_carrier_10c_2_north"
+      },
+      {
+        "point": [
+          0,
+          10,
+          2
+        ],
+        "overmap": "aircraft_carrier_11a_2_north"
+      },
+      {
+        "point": [
+          1,
+          10,
+          2
+        ],
+        "overmap": "aircraft_carrier_11b_2_north"
+      },
+      {
+        "point": [
+          2,
+          10,
+          2
+        ],
+        "overmap": "aircraft_carrier_11c_2_north"
+      },
+      {
+        "point": [
+          0,
+          11,
+          2
+        ],
+        "overmap": "aircraft_carrier_12a_2_north"
+      },
+      {
+        "point": [
+          1,
+          11,
+          2
+        ],
+        "overmap": "aircraft_carrier_12b_2_north"
+      },
+      {
+        "point": [
+          2,
+          11,
+          2
+        ],
+        "overmap": "aircraft_carrier_12c_2_north"
+      },
+      {
+        "point": [
+          0,
+          12,
+          2
+        ],
+        "overmap": "aircraft_carrier_13a_2_north"
+      },
+      {
+        "point": [
+          1,
+          12,
+          2
+        ],
+        "overmap": "aircraft_carrier_13b_2_north"
+      },
+      {
+        "point": [
+          2,
+          12,
+          2
+        ],
+        "overmap": "aircraft_carrier_13c_2_north"
+      },
+      {
+        "point": [
+          2,
+          5,
+          3
+        ],
+        "overmap": "aircraft_carrier_1a_3_north"
+      },
+      {
+        "point": [
+          2,
+          6,
+          3
+        ],
+        "overmap": "aircraft_carrier_2a_3_north"
+      },
+      {
+        "point": [
+          2,
+          5,
+          4
+        ],
+        "overmap": "aircraft_carrier_1a_4_north"
+      },
+      {
+        "point": [
+          2,
+          6,
+          4
+        ],
+        "overmap": "aircraft_carrier_2a_4_north"
+      }
+    ]
   },
   {
     "type": "overmap_special",
     "id": "evac_center",
     "copy-from": "evac_center",
-    "delete": { "flags": [ "GLOBALLY_UNIQUE" ] },
-    "extend": { "flags": [ "UNIQUE" ] }
+    "delete": {
+      "flags": [
+        "GLOBALLY_UNIQUE"
+      ]
+    },
+    "extend": {
+      "flags": [
+        "OVERMAP_UNIQUE"
+      ]
+    },
+    "occurrences": [
+      50,
+      100
+    ],
+    "priority": 1,
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "overmap": "refctr_fence_NW_north"
+      },
+      {
+        "point": [
+          1,
+          0,
+          0
+        ],
+        "overmap": "refctr_fence_h_north"
+      },
+      {
+        "point": [
+          2,
+          0,
+          0
+        ],
+        "overmap": "refctr_fence_h_north"
+      },
+      {
+        "point": [
+          3,
+          0,
+          0
+        ],
+        "overmap": "refctr_fence_h_north"
+      },
+      {
+        "point": [
+          4,
+          0,
+          0
+        ],
+        "overmap": "refctr_fence_h_north"
+      },
+      {
+        "point": [
+          0,
+          1,
+          0
+        ],
+        "overmap": "refctr_fence_v_south"
+      },
+      {
+        "point": [
+          1,
+          1,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          2,
+          1,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          3,
+          1,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          4,
+          1,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          0,
+          2,
+          0
+        ],
+        "overmap": "refctr_fence_v_south"
+      },
+      {
+        "point": [
+          1,
+          2,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          2,
+          2,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          3,
+          2,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          4,
+          2,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          0,
+          3,
+          0
+        ],
+        "overmap": "refctr_fence_v_south"
+      },
+      {
+        "point": [
+          1,
+          3,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          2,
+          3,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          3,
+          3,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          4,
+          3,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          0,
+          4,
+          0
+        ],
+        "overmap": "refctr_fence_v_south"
+      },
+      {
+        "point": [
+          1,
+          4,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          2,
+          4,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          3,
+          4,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          4,
+          4,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          5,
+          0,
+          0
+        ],
+        "overmap": "refctr_fence_h_north"
+      },
+      {
+        "point": [
+          6,
+          0,
+          0
+        ],
+        "overmap": "refctr_fence_h_north"
+      },
+      {
+        "point": [
+          7,
+          0,
+          0
+        ],
+        "overmap": "refctr_fence_h_north"
+      },
+      {
+        "point": [
+          8,
+          0,
+          0
+        ],
+        "overmap": "refctr_fence_h_north"
+      },
+      {
+        "point": [
+          9,
+          0,
+          0
+        ],
+        "overmap": "refctr_fence_h_north"
+      },
+      {
+        "point": [
+          5,
+          1,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          6,
+          1,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          7,
+          1,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          8,
+          1,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          9,
+          1,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          5,
+          2,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          6,
+          2,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          7,
+          2,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          8,
+          2,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          9,
+          2,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          5,
+          3,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          6,
+          3,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          7,
+          3,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          8,
+          3,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          9,
+          3,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          5,
+          4,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          6,
+          4,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          7,
+          4,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          8,
+          4,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          9,
+          4,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          10,
+          0,
+          0
+        ],
+        "overmap": "refctr_fence_h_north"
+      },
+      {
+        "point": [
+          11,
+          0,
+          0
+        ],
+        "overmap": "refctr_fence_h_north"
+      },
+      {
+        "point": [
+          12,
+          0,
+          0
+        ],
+        "overmap": "refctr_fence_h_north"
+      },
+      {
+        "point": [
+          13,
+          0,
+          0
+        ],
+        "overmap": "refctr_fence_h_north"
+      },
+      {
+        "point": [
+          14,
+          0,
+          0
+        ],
+        "overmap": "refctr_fence_NE_north"
+      },
+      {
+        "point": [
+          10,
+          1,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          11,
+          1,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          12,
+          1,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          13,
+          1,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          14,
+          1,
+          0
+        ],
+        "overmap": "refctr_fence_v_north"
+      },
+      {
+        "point": [
+          10,
+          2,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          11,
+          2,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          12,
+          2,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          13,
+          2,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          14,
+          2,
+          0
+        ],
+        "overmap": "refctr_fence_v_north"
+      },
+      {
+        "point": [
+          10,
+          3,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          11,
+          3,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          12,
+          3,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          13,
+          3,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          14,
+          3,
+          0
+        ],
+        "overmap": "refctr_fence_v_north"
+      },
+      {
+        "point": [
+          10,
+          4,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          11,
+          4,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          12,
+          4,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          13,
+          4,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          14,
+          4,
+          0
+        ],
+        "overmap": "refctr_fence_v_north"
+      },
+      {
+        "point": [
+          0,
+          5,
+          0
+        ],
+        "overmap": "refctr_fence_v_south"
+      },
+      {
+        "point": [
+          1,
+          5,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          2,
+          5,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          3,
+          5,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          4,
+          5,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          0,
+          6,
+          0
+        ],
+        "overmap": "refctr_fence_v_south"
+      },
+      {
+        "point": [
+          1,
+          6,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          2,
+          6,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          3,
+          6,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          4,
+          6,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          0,
+          7,
+          0
+        ],
+        "overmap": "refctr_fence_v_south"
+      },
+      {
+        "point": [
+          1,
+          7,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          2,
+          7,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          3,
+          7,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          4,
+          7,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          0,
+          8,
+          0
+        ],
+        "overmap": "refctr_fence_v_south"
+      },
+      {
+        "point": [
+          1,
+          8,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          2,
+          8,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          3,
+          8,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          4,
+          8,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          0,
+          9,
+          0
+        ],
+        "overmap": "refctr_fence_v_south"
+      },
+      {
+        "point": [
+          1,
+          9,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          2,
+          9,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          3,
+          9,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          4,
+          9,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          5,
+          5,
+          0
+        ],
+        "overmap": "evac_center_1_north"
+      },
+      {
+        "point": [
+          6,
+          5,
+          0
+        ],
+        "overmap": "evac_center_2_north"
+      },
+      {
+        "point": [
+          7,
+          5,
+          0
+        ],
+        "overmap": "evac_center_3_north"
+      },
+      {
+        "point": [
+          8,
+          5,
+          0
+        ],
+        "overmap": "evac_center_4_north"
+      },
+      {
+        "point": [
+          9,
+          5,
+          0
+        ],
+        "overmap": "evac_center_5_north"
+      },
+      {
+        "point": [
+          5,
+          6,
+          0
+        ],
+        "overmap": "evac_center_6_north"
+      },
+      {
+        "point": [
+          6,
+          6,
+          0
+        ],
+        "overmap": "evac_center_7_north"
+      },
+      {
+        "point": [
+          7,
+          6,
+          0
+        ],
+        "overmap": "evac_center_8_north"
+      },
+      {
+        "point": [
+          8,
+          6,
+          0
+        ],
+        "overmap": "evac_center_9_north"
+      },
+      {
+        "point": [
+          9,
+          6,
+          0
+        ],
+        "overmap": "evac_center_10_north"
+      },
+      {
+        "point": [
+          5,
+          7,
+          0
+        ],
+        "overmap": "evac_center_11_north"
+      },
+      {
+        "point": [
+          6,
+          7,
+          0
+        ],
+        "overmap": "evac_center_12_north"
+      },
+      {
+        "point": [
+          7,
+          7,
+          0
+        ],
+        "overmap": "evac_center_13_north",
+        "camp": "free_merchants",
+        "camp_name": "Refugee Center"
+      },
+      {
+        "point": [
+          8,
+          7,
+          0
+        ],
+        "overmap": "evac_center_14_north"
+      },
+      {
+        "point": [
+          9,
+          7,
+          0
+        ],
+        "overmap": "evac_center_15_north"
+      },
+      {
+        "point": [
+          5,
+          8,
+          0
+        ],
+        "overmap": "evac_center_16_north"
+      },
+      {
+        "point": [
+          6,
+          8,
+          0
+        ],
+        "overmap": "evac_center_17_north"
+      },
+      {
+        "point": [
+          7,
+          8,
+          0
+        ],
+        "overmap": "evac_center_18_north"
+      },
+      {
+        "point": [
+          8,
+          8,
+          0
+        ],
+        "overmap": "evac_center_19_north"
+      },
+      {
+        "point": [
+          9,
+          8,
+          0
+        ],
+        "overmap": "evac_center_20_north"
+      },
+      {
+        "point": [
+          5,
+          9,
+          0
+        ],
+        "overmap": "evac_center_21_north"
+      },
+      {
+        "point": [
+          6,
+          9,
+          0
+        ],
+        "overmap": "evac_center_22_north"
+      },
+      {
+        "point": [
+          7,
+          9,
+          0
+        ],
+        "overmap": "evac_center_23_north"
+      },
+      {
+        "point": [
+          8,
+          9,
+          0
+        ],
+        "overmap": "evac_center_24_north"
+      },
+      {
+        "point": [
+          9,
+          9,
+          0
+        ],
+        "overmap": "evac_center_25_north"
+      },
+      {
+        "point": [
+          10,
+          5,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          11,
+          5,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          12,
+          5,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          13,
+          5,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          14,
+          5,
+          0
+        ],
+        "overmap": "refctr_fence_v_north"
+      },
+      {
+        "point": [
+          10,
+          6,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          11,
+          6,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          12,
+          6,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          13,
+          6,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          14,
+          6,
+          0
+        ],
+        "overmap": "refctr_fence_v_north"
+      },
+      {
+        "point": [
+          10,
+          7,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          11,
+          7,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          12,
+          7,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          13,
+          7,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          14,
+          7,
+          0
+        ],
+        "overmap": "refctr_fence_v_north"
+      },
+      {
+        "point": [
+          10,
+          8,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          11,
+          8,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          12,
+          8,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          13,
+          8,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          14,
+          8,
+          0
+        ],
+        "overmap": "refctr_fence_v_north"
+      },
+      {
+        "point": [
+          10,
+          9,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          11,
+          9,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          12,
+          9,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          13,
+          9,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          14,
+          9,
+          0
+        ],
+        "overmap": "refctr_fence_v_north"
+      },
+      {
+        "point": [
+          0,
+          10,
+          0
+        ],
+        "overmap": "refctr_fence_v_south"
+      },
+      {
+        "point": [
+          1,
+          10,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          2,
+          10,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          3,
+          10,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          4,
+          10,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          0,
+          11,
+          0
+        ],
+        "overmap": "refctr_fence_v_south"
+      },
+      {
+        "point": [
+          1,
+          11,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          2,
+          11,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          3,
+          11,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          4,
+          11,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          0,
+          12,
+          0
+        ],
+        "overmap": "refctr_fence_v_south"
+      },
+      {
+        "point": [
+          1,
+          12,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          2,
+          12,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          3,
+          12,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          4,
+          12,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          0,
+          13,
+          0
+        ],
+        "overmap": "refctr_fence_v_south"
+      },
+      {
+        "point": [
+          1,
+          13,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          2,
+          13,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          3,
+          13,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          4,
+          13,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          0,
+          14,
+          0
+        ],
+        "overmap": "refctr_fence_SW_north"
+      },
+      {
+        "point": [
+          1,
+          14,
+          0
+        ],
+        "overmap": "refctr_fence_h_south"
+      },
+      {
+        "point": [
+          2,
+          14,
+          0
+        ],
+        "overmap": "refctr_fence_h_south"
+      },
+      {
+        "point": [
+          3,
+          14,
+          0
+        ],
+        "overmap": "refctr_fence_h_south"
+      },
+      {
+        "point": [
+          4,
+          14,
+          0
+        ],
+        "overmap": "refctr_fence_h_south"
+      },
+      {
+        "point": [
+          5,
+          10,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          6,
+          10,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          7,
+          10,
+          0
+        ],
+        "overmap": "refctr_road_north"
+      },
+      {
+        "point": [
+          8,
+          10,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          9,
+          10,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          5,
+          11,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          6,
+          11,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          7,
+          11,
+          0
+        ],
+        "overmap": "refctr_road_north"
+      },
+      {
+        "point": [
+          8,
+          11,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          9,
+          11,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          5,
+          12,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          6,
+          12,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          7,
+          12,
+          0
+        ],
+        "overmap": "refctr_road_north"
+      },
+      {
+        "point": [
+          8,
+          12,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          9,
+          12,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          5,
+          13,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          6,
+          13,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          7,
+          13,
+          0
+        ],
+        "overmap": "refctr_road_north"
+      },
+      {
+        "point": [
+          8,
+          13,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          9,
+          13,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          5,
+          14,
+          0
+        ],
+        "overmap": "refctr_fence_h_south"
+      },
+      {
+        "point": [
+          6,
+          14,
+          0
+        ],
+        "overmap": "refctr_fence_entrance_L_north"
+      },
+      {
+        "point": [
+          7,
+          14,
+          0
+        ],
+        "overmap": "refctr_S3e_north"
+      },
+      {
+        "point": [
+          8,
+          14,
+          0
+        ],
+        "overmap": "refctr_fence_entrance_R_north"
+      },
+      {
+        "point": [
+          9,
+          14,
+          0
+        ],
+        "overmap": "refctr_fence_h_south"
+      },
+      {
+        "point": [
+          10,
+          10,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          11,
+          10,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          12,
+          10,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          13,
+          10,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          14,
+          10,
+          0
+        ],
+        "overmap": "refctr_fence_v_north"
+      },
+      {
+        "point": [
+          10,
+          11,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          11,
+          11,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          12,
+          11,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          13,
+          11,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          14,
+          11,
+          0
+        ],
+        "overmap": "refctr_fence_v_north"
+      },
+      {
+        "point": [
+          10,
+          12,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          11,
+          12,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          12,
+          12,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          13,
+          12,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          14,
+          12,
+          0
+        ],
+        "overmap": "refctr_fence_v_north"
+      },
+      {
+        "point": [
+          10,
+          13,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          11,
+          13,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          12,
+          13,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          13,
+          13,
+          0
+        ],
+        "overmap": "refctr_field"
+      },
+      {
+        "point": [
+          14,
+          13,
+          0
+        ],
+        "overmap": "refctr_fence_v_north"
+      },
+      {
+        "point": [
+          10,
+          14,
+          0
+        ],
+        "overmap": "refctr_fence_h_south"
+      },
+      {
+        "point": [
+          11,
+          14,
+          0
+        ],
+        "overmap": "refctr_fence_h_south"
+      },
+      {
+        "point": [
+          12,
+          14,
+          0
+        ],
+        "overmap": "refctr_fence_h_south"
+      },
+      {
+        "point": [
+          13,
+          14,
+          0
+        ],
+        "overmap": "refctr_fence_h_south"
+      },
+      {
+        "point": [
+          14,
+          14,
+          0
+        ],
+        "overmap": "refctr_fence_SE_north"
+      },
+      {
+        "point": [
+          6,
+          6,
+          1
+        ],
+        "overmap": "evac_center_7_z1_north"
+      },
+      {
+        "point": [
+          7,
+          6,
+          1
+        ],
+        "overmap": "evac_center_8_z1_north"
+      },
+      {
+        "point": [
+          8,
+          6,
+          1
+        ],
+        "overmap": "evac_center_9_z1_north"
+      },
+      {
+        "point": [
+          6,
+          7,
+          1
+        ],
+        "overmap": "evac_center_12_z1_north"
+      },
+      {
+        "point": [
+          7,
+          7,
+          1
+        ],
+        "overmap": "evac_center_13_z1_north"
+      },
+      {
+        "point": [
+          8,
+          7,
+          1
+        ],
+        "overmap": "evac_center_14_z1_north"
+      },
+      {
+        "point": [
+          6,
+          8,
+          1
+        ],
+        "overmap": "evac_center_17_z1_north"
+      },
+      {
+        "point": [
+          7,
+          8,
+          1
+        ],
+        "overmap": "evac_center_18_z1_north"
+      },
+      {
+        "point": [
+          8,
+          8,
+          1
+        ],
+        "overmap": "evac_center_19_z1_north"
+      },
+      {
+        "point": [
+          6,
+          7,
+          2
+        ],
+        "overmap": "evac_center_12_z2_north"
+      },
+      {
+        "point": [
+          7,
+          7,
+          2
+        ],
+        "overmap": "evac_center_13_z2_north"
+      },
+      {
+        "point": [
+          8,
+          7,
+          2
+        ],
+        "overmap": "evac_center_14_z2_north"
+      },
+      {
+        "point": [
+          4,
+          4,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          5,
+          4,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          6,
+          4,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          7,
+          4,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          8,
+          4,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          9,
+          4,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          10,
+          4,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          4,
+          5,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          5,
+          5,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          6,
+          5,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          7,
+          5,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          8,
+          5,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          9,
+          5,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          10,
+          5,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          4,
+          6,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          5,
+          6,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          6,
+          6,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          7,
+          6,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          8,
+          6,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          9,
+          6,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          10,
+          6,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          4,
+          7,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          5,
+          7,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          6,
+          7,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          7,
+          7,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          8,
+          7,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          9,
+          7,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          10,
+          7,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          4,
+          8,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          5,
+          8,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          6,
+          8,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          7,
+          8,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          8,
+          8,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          9,
+          8,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          10,
+          8,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          4,
+          9,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          5,
+          9,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          6,
+          9,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          7,
+          9,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          8,
+          9,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          9,
+          9,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          10,
+          9,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          4,
+          10,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          5,
+          10,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          6,
+          10,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          7,
+          10,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          8,
+          10,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          9,
+          10,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          10,
+          10,
+          -1
+        ],
+        "overmap": "special_earth"
+      },
+      {
+        "point": [
+          4,
+          4,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          5,
+          4,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          6,
+          4,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          7,
+          4,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          8,
+          4,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          9,
+          4,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          10,
+          4,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          4,
+          5,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          5,
+          5,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          6,
+          5,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          7,
+          5,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          8,
+          5,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          9,
+          5,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          10,
+          5,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          4,
+          6,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          5,
+          6,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          6,
+          6,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          7,
+          6,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          8,
+          6,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          9,
+          6,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          10,
+          6,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          4,
+          7,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          5,
+          7,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          6,
+          7,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          7,
+          7,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          8,
+          7,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          9,
+          7,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          10,
+          7,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          4,
+          8,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          5,
+          8,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          6,
+          8,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          7,
+          8,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          8,
+          8,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          9,
+          8,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          10,
+          8,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          4,
+          9,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          5,
+          9,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          6,
+          9,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          7,
+          9,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          8,
+          9,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          9,
+          9,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          10,
+          9,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          4,
+          10,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          5,
+          10,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          6,
+          10,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          7,
+          10,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          8,
+          10,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          9,
+          10,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          10,
+          10,
+          -2
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          4,
+          4,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          5,
+          4,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          6,
+          4,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          7,
+          4,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          8,
+          4,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          9,
+          4,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          10,
+          4,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          4,
+          5,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          5,
+          5,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          6,
+          5,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          7,
+          5,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          8,
+          5,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          9,
+          5,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          10,
+          5,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          4,
+          6,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          5,
+          6,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          6,
+          6,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          7,
+          6,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          8,
+          6,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          9,
+          6,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          10,
+          6,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          4,
+          7,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          5,
+          7,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          6,
+          7,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          7,
+          7,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          8,
+          7,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          9,
+          7,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          10,
+          7,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          4,
+          8,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          5,
+          8,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          6,
+          8,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          7,
+          8,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          8,
+          8,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          9,
+          8,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          10,
+          8,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          4,
+          9,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          5,
+          9,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          6,
+          9,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          7,
+          9,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          8,
+          9,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          9,
+          9,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          10,
+          9,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          4,
+          10,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          5,
+          10,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          6,
+          10,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          7,
+          10,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          8,
+          10,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          9,
+          10,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          10,
+          10,
+          -3
+        ],
+        "overmap": "special_rock"
+      },
+      {
+        "point": [
+          4,
+          4,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          5,
+          4,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          6,
+          4,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          7,
+          4,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          8,
+          4,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          9,
+          4,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          10,
+          4,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          4,
+          5,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          5,
+          5,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          6,
+          5,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          7,
+          5,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          8,
+          5,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          9,
+          5,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          10,
+          5,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          4,
+          6,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          5,
+          6,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          6,
+          6,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          7,
+          6,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          8,
+          6,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          9,
+          6,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          10,
+          6,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          4,
+          7,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          5,
+          7,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          6,
+          7,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          7,
+          7,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          8,
+          7,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          9,
+          7,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          10,
+          7,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          4,
+          8,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          5,
+          8,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          6,
+          8,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          7,
+          8,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          8,
+          8,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          9,
+          8,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          10,
+          8,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          4,
+          9,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          5,
+          9,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          6,
+          9,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          7,
+          9,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          8,
+          9,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          9,
+          9,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          10,
+          9,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          4,
+          10,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          5,
+          10,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          6,
+          10,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          7,
+          10,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          8,
+          10,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          9,
+          10,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          10,
+          10,
+          -4
+        ],
+        "overmap": "special_deep_rock"
+      },
+      {
+        "point": [
+          7,
+          15,
+          0
+        ],
+        "locations": [
+          "land",
+          "road"
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "point": [
+          7,
+          15,
+          0
+        ],
+        "terrain": "road",
+        "connection": "local_road",
+        "from": [
+          7,
+          14,
+          0
+        ]
+      }
+    ]
   },
   {
     "type": "overmap_special",
     "id": "hub_01",
     "copy-from": "hub_01",
-    "delete": { "flags": [ "GLOBALLY_UNIQUE" ] },
-    "extend": { "flags": [ "UNIQUE" ] }
+    "delete": {
+      "flags": [
+        "GLOBALLY_UNIQUE"
+      ]
+    },
+    "extend": {
+      "flags": [
+        "OVERMAP_UNIQUE"
+      ]
+    },
+    "occurrences": [
+      50,
+      100
+    ],
+    "priority": 1,
+    "overmaps": [
+      {
+        "point": [
+          0,
+          -2,
+          1
+        ],
+        "overmap": "robofachq_meteorology_roof0_north"
+      },
+      {
+        "point": [
+          1,
+          -2,
+          1
+        ],
+        "overmap": "robofachq_meteorology_roof1_north"
+      },
+      {
+        "point": [
+          2,
+          -2,
+          1
+        ],
+        "overmap": "robofachq_meteorology_roof2_north"
+      },
+      {
+        "point": [
+          3,
+          -2,
+          1
+        ],
+        "overmap": "robofachq_meteorology_roof3_north"
+      },
+      {
+        "point": [
+          0,
+          0,
+          1
+        ],
+        "overmap": "robofachq_roof_a0_north"
+      },
+      {
+        "point": [
+          1,
+          0,
+          1
+        ],
+        "overmap": "robofachq_roof_a1_north"
+      },
+      {
+        "point": [
+          2,
+          0,
+          1
+        ],
+        "overmap": "robofachq_roof_a2_north"
+      },
+      {
+        "point": [
+          3,
+          0,
+          1
+        ],
+        "overmap": "robofachq_roof_a3_north"
+      },
+      {
+        "point": [
+          0,
+          -2,
+          0
+        ],
+        "overmap": "robofachq_meteorology0_north"
+      },
+      {
+        "point": [
+          1,
+          -2,
+          0
+        ],
+        "overmap": "robofachq_meteorology1_north"
+      },
+      {
+        "point": [
+          2,
+          -2,
+          0
+        ],
+        "overmap": "robofachq_meteorology2_north"
+      },
+      {
+        "point": [
+          3,
+          -2,
+          0
+        ],
+        "overmap": "robofachq_meteorology3_north"
+      },
+      {
+        "point": [
+          0,
+          -1,
+          0
+        ],
+        "overmap": "robofachq_surface_road0_north"
+      },
+      {
+        "point": [
+          1,
+          -1,
+          0
+        ],
+        "overmap": "robofachq_surface_road1_north"
+      },
+      {
+        "point": [
+          2,
+          -1,
+          0
+        ],
+        "overmap": "robofachq_surface_road2_north"
+      },
+      {
+        "point": [
+          3,
+          -1,
+          0
+        ],
+        "overmap": "robofachq_surface_road3_north"
+      },
+      {
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "overmap": "robofachq_surface_parking_north"
+      },
+      {
+        "point": [
+          1,
+          0,
+          0
+        ],
+        "overmap": "robofachq_surface_entrance_north",
+        "camp": "robofac",
+        "camp_name": "Hub 01"
+      },
+      {
+        "point": [
+          2,
+          0,
+          0
+        ],
+        "overmap": "robofachq_surface_car_entrance_north"
+      },
+      {
+        "point": [
+          3,
+          0,
+          0
+        ],
+        "overmap": "robofachq_surface_a3_north"
+      },
+      {
+        "point": [
+          0,
+          1,
+          0
+        ],
+        "overmap": "robofachq_surface_b0_north"
+      },
+      {
+        "point": [
+          1,
+          1,
+          0
+        ],
+        "overmap": "robofachq_surface_b1_north"
+      },
+      {
+        "point": [
+          2,
+          1,
+          0
+        ],
+        "overmap": "robofachq_surface_b2_north"
+      },
+      {
+        "point": [
+          3,
+          1,
+          0
+        ],
+        "overmap": "robofachq_surface_b3_north"
+      },
+      {
+        "point": [
+          0,
+          -2,
+          -1
+        ],
+        "overmap": "robofachq_subcc_a0_north"
+      },
+      {
+        "point": [
+          1,
+          -2,
+          -1
+        ],
+        "overmap": "robofachq_subcc_a1_north"
+      },
+      {
+        "point": [
+          2,
+          -2,
+          -1
+        ],
+        "overmap": "robofachq_subcc_a2_north"
+      },
+      {
+        "point": [
+          3,
+          -2,
+          -1
+        ],
+        "overmap": "robofachq_subcc_a3_north"
+      },
+      {
+        "point": [
+          1,
+          0,
+          -1
+        ],
+        "overmap": "robofachq_foyer1_north"
+      },
+      {
+        "point": [
+          2,
+          0,
+          -1
+        ],
+        "overmap": "robofachq_foyer2_north"
+      },
+      {
+        "point": [
+          2,
+          1,
+          -1
+        ],
+        "overmap": "robofachq_foyer4_north"
+      },
+      {
+        "point": [
+          -1,
+          -2,
+          -2
+        ],
+        "overmap": "microlab_sub_connector_west"
+      },
+      {
+        "point": [
+          0,
+          -2,
+          -2
+        ],
+        "overmap": "robofachq_subline_a0_north"
+      },
+      {
+        "point": [
+          1,
+          -2,
+          -2
+        ],
+        "overmap": "robofachq_subline_a1_north"
+      },
+      {
+        "point": [
+          2,
+          -2,
+          -2
+        ],
+        "overmap": "robofachq_subline_a2_north"
+      },
+      {
+        "point": [
+          3,
+          -2,
+          -2
+        ],
+        "overmap": "robofachq_subline_a3_north"
+      },
+      {
+        "point": [
+          4,
+          -2,
+          -2
+        ],
+        "overmap": "microlab_sub_connector_east"
+      },
+      {
+        "point": [
+          0,
+          -1,
+          -2
+        ],
+        "overmap": "robofachq_sub_a0_north"
+      },
+      {
+        "point": [
+          1,
+          -1,
+          -2
+        ],
+        "overmap": "robofachq_sub_a1_north"
+      },
+      {
+        "point": [
+          2,
+          -1,
+          -2
+        ],
+        "overmap": "robofachq_sub_a2_north"
+      },
+      {
+        "point": [
+          3,
+          -1,
+          -2
+        ],
+        "overmap": "robofachq_sub_a3_north"
+      },
+      {
+        "point": [
+          0,
+          0,
+          -2
+        ],
+        "overmap": "robofachq_exe_a0_north"
+      },
+      {
+        "point": [
+          1,
+          0,
+          -2
+        ],
+        "overmap": "robofachq_exe_a1_north"
+      },
+      {
+        "point": [
+          2,
+          0,
+          -2
+        ],
+        "overmap": "robofachq_exe_a2_north"
+      },
+      {
+        "point": [
+          3,
+          0,
+          -2
+        ],
+        "overmap": "robofachq_exe_a3_north"
+      },
+      {
+        "point": [
+          0,
+          1,
+          -2
+        ],
+        "overmap": "robofachq_exe_b0_north"
+      },
+      {
+        "point": [
+          1,
+          1,
+          -2
+        ],
+        "overmap": "robofachq_exe_b1_north"
+      },
+      {
+        "point": [
+          2,
+          1,
+          -2
+        ],
+        "overmap": "robofachq_exe_b2_north"
+      },
+      {
+        "point": [
+          3,
+          1,
+          -2
+        ],
+        "overmap": "robofachq_exe_b3_north"
+      },
+      {
+        "point": [
+          0,
+          0,
+          -3
+        ],
+        "overmap": "robofachq_hab_a0_north"
+      },
+      {
+        "point": [
+          1,
+          0,
+          -3
+        ],
+        "overmap": "robofachq_hab_a1_north"
+      },
+      {
+        "point": [
+          2,
+          0,
+          -3
+        ],
+        "overmap": "robofachq_hab_a2_north"
+      },
+      {
+        "point": [
+          3,
+          0,
+          -3
+        ],
+        "overmap": "robofachq_hab_a3_north"
+      },
+      {
+        "point": [
+          0,
+          1,
+          -3
+        ],
+        "overmap": "robofachq_hab_b0_north"
+      },
+      {
+        "point": [
+          1,
+          1,
+          -3
+        ],
+        "overmap": "robofachq_hab_b1_north"
+      },
+      {
+        "point": [
+          2,
+          1,
+          -3
+        ],
+        "overmap": "robofachq_hab_b2_north"
+      },
+      {
+        "point": [
+          3,
+          1,
+          -3
+        ],
+        "overmap": "robofachq_hab_b3_north"
+      },
+      {
+        "point": [
+          1,
+          -2,
+          -4
+        ],
+        "overmap": "microlab_sub_connector_north"
+      },
+      {
+        "point": [
+          0,
+          -1,
+          -4
+        ],
+        "overmap": "robofachq_sub_a0_north"
+      },
+      {
+        "point": [
+          1,
+          -1,
+          -4
+        ],
+        "overmap": "robofachq_sub_a1_north"
+      },
+      {
+        "point": [
+          2,
+          -1,
+          -4
+        ],
+        "overmap": "robofachq_sub_a2_north"
+      },
+      {
+        "point": [
+          3,
+          -1,
+          -4
+        ],
+        "overmap": "robofachq_sub_a3_north"
+      },
+      {
+        "point": [
+          0,
+          0,
+          -4
+        ],
+        "overmap": "robofachq_res_a0_north"
+      },
+      {
+        "point": [
+          1,
+          0,
+          -4
+        ],
+        "overmap": "robofachq_res_a1_north"
+      },
+      {
+        "point": [
+          2,
+          0,
+          -4
+        ],
+        "overmap": "robofachq_res_a2_north"
+      },
+      {
+        "point": [
+          3,
+          0,
+          -4
+        ],
+        "overmap": "robofachq_res_a3_north"
+      },
+      {
+        "point": [
+          0,
+          1,
+          -4
+        ],
+        "overmap": "robofachq_res_b0_north"
+      },
+      {
+        "point": [
+          1,
+          1,
+          -4
+        ],
+        "overmap": "robofachq_res_b1_north"
+      },
+      {
+        "point": [
+          2,
+          1,
+          -4
+        ],
+        "overmap": "robofachq_res_b2_north"
+      },
+      {
+        "point": [
+          3,
+          1,
+          -4
+        ],
+        "overmap": "robofachq_res_b3_north"
+      },
+      {
+        "point": [
+          0,
+          0,
+          -6
+        ],
+        "overmap": "robofachq_ai_a0_north"
+      },
+      {
+        "point": [
+          1,
+          0,
+          -6
+        ],
+        "overmap": "robofachq_ai_a1_north"
+      },
+      {
+        "point": [
+          2,
+          0,
+          -6
+        ],
+        "overmap": "robofachq_ai_a2_north"
+      },
+      {
+        "point": [
+          3,
+          0,
+          -6
+        ],
+        "overmap": "robofachq_ai_a3_north"
+      },
+      {
+        "point": [
+          0,
+          1,
+          -6
+        ],
+        "overmap": "robofachq_ai_b0_north"
+      },
+      {
+        "point": [
+          1,
+          1,
+          -6
+        ],
+        "overmap": "robofachq_ai_b1_north"
+      },
+      {
+        "point": [
+          2,
+          1,
+          -6
+        ],
+        "overmap": "robofachq_ai_b2_north"
+      },
+      {
+        "point": [
+          3,
+          1,
+          -6
+        ],
+        "overmap": "robofachq_ai_b3_north"
+      },
+      {
+        "point": [
+          0,
+          0,
+          -7
+        ],
+        "overmap": "robofachq_aiutl_a0_north"
+      },
+      {
+        "point": [
+          1,
+          0,
+          -7
+        ],
+        "overmap": "robofachq_aiutl_a1_north"
+      },
+      {
+        "point": [
+          2,
+          0,
+          -7
+        ],
+        "overmap": "robofachq_aiutl_a2_north"
+      },
+      {
+        "point": [
+          3,
+          0,
+          -7
+        ],
+        "overmap": "robofachq_aiutl_a3_north"
+      },
+      {
+        "point": [
+          0,
+          1,
+          -7
+        ],
+        "overmap": "robofachq_aiutl_b0_north"
+      },
+      {
+        "point": [
+          1,
+          1,
+          -7
+        ],
+        "overmap": "robofachq_aiutl_b1_north"
+      },
+      {
+        "point": [
+          2,
+          1,
+          -7
+        ],
+        "overmap": "robofachq_aiutl_b2_north"
+      },
+      {
+        "point": [
+          3,
+          1,
+          -7
+        ],
+        "overmap": "robofachq_aiutl_b3_north"
+      },
+      {
+        "point": [
+          10,
+          2,
+          0
+        ],
+        "overmap": "radio_tower_1_north"
+      },
+      {
+        "point": [
+          10,
+          2,
+          1
+        ],
+        "overmap": "radio_tower_roof_1_north"
+      },
+      {
+        "point": [
+          10,
+          2,
+          2
+        ],
+        "overmap": "radio_tower_even_stair_only_north"
+      },
+      {
+        "point": [
+          10,
+          2,
+          3
+        ],
+        "overmap": "radio_tower_odd_north"
+      },
+      {
+        "point": [
+          10,
+          2,
+          4
+        ],
+        "overmap": "radio_tower_even_north"
+      },
+      {
+        "point": [
+          10,
+          2,
+          5
+        ],
+        "overmap": "radio_tower_odd_north"
+      },
+      {
+        "point": [
+          10,
+          2,
+          6
+        ],
+        "overmap": "radio_tower_top_north"
+      },
+      {
+        "point": [
+          10,
+          7,
+          1
+        ],
+        "overmap": "lab_subway_vent_shaft_roof"
+      },
+      {
+        "point": [
+          10,
+          7,
+          0
+        ],
+        "overmap": "lab_subway_vent_shaft_surface"
+      },
+      {
+        "point": [
+          10,
+          7,
+          -1
+        ],
+        "overmap": "lab_subway_vent_shaft-1"
+      },
+      {
+        "point": [
+          10,
+          7,
+          -2
+        ],
+        "overmap": "lab_subway_vent_shaft-4"
+      },
+      {
+        "point": [
+          11,
+          7,
+          -2
+        ],
+        "overmap": "subway_ns"
+      },
+      {
+        "point": [
+          11,
+          8,
+          -2
+        ],
+        "overmap": "microlab_sub_connector_south"
+      },
+      {
+        "point": [
+          11,
+          -6,
+          -2
+        ],
+        "overmap": "microlab_sub_connector_north"
+      },
+      {
+        "point": [
+          10,
+          1,
+          0
+        ],
+        "locations": [
+          "land",
+          "road"
+        ]
+      },
+      {
+        "point": [
+          4,
+          -1,
+          0
+        ],
+        "locations": [
+          "land",
+          "road"
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "point": [
+          10,
+          1,
+          0
+        ],
+        "terrain": "road",
+        "connection": "local_road",
+        "from": [
+          10,
+          2,
+          0
+        ]
+      },
+      {
+        "point": [
+          4,
+          -1,
+          0
+        ],
+        "terrain": "road",
+        "connection": "local_road",
+        "from": [
+          3,
+          -1,
+          0
+        ]
+      }
+    ]
   },
   {
     "type": "overmap_special",
     "id": "Occupied Scrap Yard",
     "copy-from": "Occupied Scrap Yard",
-    "delete": { "flags": [ "GLOBALLY_UNIQUE" ] },
-    "extend": { "flags": [ "UNIQUE" ] }
+    "delete": {
+      "flags": [
+        "GLOBALLY_UNIQUE"
+      ]
+    },
+    "extend": {
+      "flags": [
+        "OVERMAP_UNIQUE"
+      ]
+    },
+    "occurrences": [
+      50,
+      100
+    ],
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "overmap": "smallscrapyard_ocu_north",
+        "camp": "wasteland_scavengers",
+        "camp_name": "Scrapper"
+      },
+      {
+        "point": [
+          0,
+          0,
+          1
+        ],
+        "overmap": "smallscrapyard_ocu_roof_north"
+      },
+      {
+        "point": [
+          0,
+          -1,
+          0
+        ],
+        "locations": [
+          "land",
+          "road"
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "point": [
+          0,
+          -1,
+          0
+        ],
+        "terrain": "road",
+        "connection": "local_road",
+        "from": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
   },
   {
     "type": "overmap_special",
     "id": "Occupied Chem Lab",
     "copy-from": "Occupied Chem Lab",
-    "delete": { "flags": [ "GLOBALLY_UNIQUE" ] },
-    "extend": { "flags": [ "UNIQUE" ] }
+    "delete": {
+      "flags": [
+        "GLOBALLY_UNIQUE"
+      ]
+    },
+    "extend": {
+      "flags": [
+        "OVERMAP_UNIQUE"
+      ]
+    },
+    "occurrences": [
+      50,
+      100
+    ],
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "overmap": "chemical_lab_ocu_north",
+        "camp": "wasteland_scavengers",
+        "camp_name": "Chemist"
+      },
+      {
+        "point": [
+          0,
+          0,
+          1
+        ],
+        "overmap": "chemical_lab_roof_ocu_north"
+      },
+      {
+        "point": [
+          -1,
+          -1,
+          0
+        ],
+        "locations": [
+          "land",
+          "road"
+        ]
+      },
+      {
+        "point": [
+          -1,
+          0,
+          0
+        ],
+        "locations": [
+          "land",
+          "road"
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "point": [
+          -1,
+          -1,
+          0
+        ],
+        "terrain": "road",
+        "connection": "local_road"
+      },
+      {
+        "point": [
+          -1,
+          0,
+          0
+        ],
+        "terrain": "road",
+        "connection": "local_road"
+      }
+    ]
   },
   {
     "type": "overmap_special",
     "id": "Occupied Lumbermill",
     "copy-from": "Occupied Lumbermill",
-    "delete": { "flags": [ "GLOBALLY_UNIQUE" ] },
-    "extend": { "flags": [ "UNIQUE" ] }
+    "delete": {
+      "flags": [
+        "GLOBALLY_UNIQUE"
+      ]
+    },
+    "extend": {
+      "flags": [
+        "OVERMAP_UNIQUE"
+      ]
+    },
+    "occurrences": [
+      50,
+      100
+    ],
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "overmap": "lumbermill_0_0_ocu_north"
+      },
+      {
+        "point": [
+          1,
+          0,
+          0
+        ],
+        "overmap": "lumbermill_1_0_ocu_north"
+      },
+      {
+        "point": [
+          0,
+          1,
+          0
+        ],
+        "overmap": "lumbermill_0_1_ocu_north"
+      },
+      {
+        "point": [
+          1,
+          1,
+          0
+        ],
+        "overmap": "lumbermill_1_1_ocu_north",
+        "camp": "wasteland_scavengers",
+        "camp_name": "Lumbermill (survivor base)"
+      },
+      {
+        "point": [
+          0,
+          0,
+          1
+        ],
+        "overmap": "lumbermill_0_0_roof_north"
+      },
+      {
+        "point": [
+          1,
+          0,
+          1
+        ],
+        "overmap": "lumbermill_1_0_roof_north"
+      },
+      {
+        "point": [
+          0,
+          1,
+          1
+        ],
+        "overmap": "lumbermill_0_1_roof_north"
+      },
+      {
+        "point": [
+          1,
+          1,
+          1
+        ],
+        "overmap": "lumbermill_1_1_roof_north"
+      },
+      {
+        "point": [
+          2,
+          0,
+          0
+        ],
+        "overmap": "lumbermill_dforest_north",
+        "locations": [
+          "forest"
+        ]
+      },
+      {
+        "point": [
+          0,
+          2,
+          0
+        ],
+        "overmap": "lumbermill_dforest_north",
+        "locations": [
+          "forest"
+        ]
+      },
+      {
+        "point": [
+          1,
+          2,
+          0
+        ],
+        "overmap": "lumbermill_dforest_north",
+        "locations": [
+          "forest"
+        ]
+      },
+      {
+        "point": [
+          2,
+          1,
+          0
+        ],
+        "overmap": "lumbermill_dforest_north",
+        "locations": [
+          "forest"
+        ]
+      },
+      {
+        "point": [
+          2,
+          2,
+          0
+        ],
+        "overmap": "lumbermill_dforest_north",
+        "locations": [
+          "forest"
+        ]
+      },
+      {
+        "point": [
+          3,
+          0,
+          0
+        ],
+        "overmap": "lumbermill_dforest_north",
+        "locations": [
+          "forest"
+        ]
+      },
+      {
+        "point": [
+          3,
+          1,
+          0
+        ],
+        "overmap": "lumbermill_dforest_north",
+        "locations": [
+          "forest"
+        ]
+      },
+      {
+        "point": [
+          3,
+          2,
+          0
+        ],
+        "overmap": "lumbermill_dforest_north",
+        "locations": [
+          "forest"
+        ]
+      },
+      {
+        "point": [
+          0,
+          3,
+          0
+        ],
+        "overmap": "lumbermill_dforest_north",
+        "locations": [
+          "forest"
+        ]
+      },
+      {
+        "point": [
+          1,
+          3,
+          0
+        ],
+        "overmap": "lumbermill_dforest_north",
+        "locations": [
+          "forest"
+        ]
+      },
+      {
+        "point": [
+          2,
+          3,
+          0
+        ],
+        "overmap": "lumbermill_dforest_north",
+        "locations": [
+          "forest"
+        ]
+      },
+      {
+        "point": [
+          0,
+          -1,
+          0
+        ],
+        "locations": [
+          "land",
+          "road"
+        ]
+      },
+      {
+        "point": [
+          1,
+          -1,
+          0
+        ],
+        "locations": [
+          "land",
+          "road"
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "point": [
+          0,
+          -1,
+          0
+        ],
+        "terrain": "road",
+        "connection": "local_road"
+      },
+      {
+        "point": [
+          1,
+          -1,
+          0
+        ],
+        "terrain": "road",
+        "connection": "local_road"
+      }
+    ]
   },
   {
     "type": "overmap_special",
     "id": "Cabin_Lapin",
     "copy-from": "Cabin_Lapin",
-    "delete": { "flags": [ "GLOBALLY_UNIQUE" ] },
-    "extend": { "flags": [ "UNIQUE" ] }
-  },
-  {
-    "type": "overmap_special",
-    "id": "St_Johns_farm",
-    "copy-from": "St_Johns_farm",
-    "delete": { "flags": [ "GLOBALLY_UNIQUE" ] },
-    "extend": { "flags": [ "UNIQUE" ] }
+    "delete": {
+      "flags": [
+        "GLOBALLY_UNIQUE"
+      ]
+    },
+    "extend": {
+      "flags": [
+        "OVERMAP_UNIQUE"
+      ]
+    },
+    "occurrences": [
+      50,
+      100
+    ],
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "overmap": "cabin_lapin_north",
+        "camp": "lapin",
+        "camp_name": "Lapin"
+      },
+      {
+        "point": [
+          0,
+          0,
+          1
+        ],
+        "overmap": "cabin_roof_lapin_north"
+      },
+      {
+        "point": [
+          1,
+          1,
+          0
+        ],
+        "overmap": "field_graboid"
+      }
+    ],
+    "connections": [
+      {
+        "point": [
+          0,
+          -1,
+          0
+        ],
+        "terrain": "forest_trail",
+        "connection": "forest_trail"
+      }
+    ]
   }
 ]

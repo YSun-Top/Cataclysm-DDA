@@ -2,7 +2,7 @@
   {
     "type": "MOD_INFO",
     "id": "no_global_uniques",
-    "name": "No Global Uniques",
+    "name": "特殊地点不再是唯一的（难民中心、航母……）",
     "authors": [ "YellowbakaFan" ],
     "description": "使所有特殊地点不再是全球唯一的！",
     "category": "rebalance",
