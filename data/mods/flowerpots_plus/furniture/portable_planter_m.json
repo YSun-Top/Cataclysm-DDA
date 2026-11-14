@@ -2,7 +2,7 @@
   {
     "type": "furniture",
     "id": "f_portable_planter_m",
-    "name": "portable planter",
+    "name": "便携式花盆",
     "description": "一个便携式花盆箱展开成一个装满土壤的槽。检查它以种植种子，就像花园花盆一样。",
     "copy-from": "f_planter",
     "deployed_item": "portable_planter_m",
@@ -13,7 +13,7 @@
   {
     "type": "furniture",
     "id": "f_portable_planter_m_seed",
-    "name": "portable planter with seed",
+    "name": "便携花盆：装着刚种下不久的种子",
     "copy-from": "f_planter_seed",
     "deployed_item": "portable_planter_m",
     "extend": { "flags": [ "EASY_DECONSTRUCT" ] },
@@ -23,7 +23,7 @@
   {
     "type": "furniture",
     "id": "f_portable_planter_m_seedling",
-    "name": "portable planter with seedling",
+    "name": "便携花盆：装着植物幼苗",
     "copy-from": "f_planter_seedling",
     "deployed_item": "portable_planter_m",
     "extend": { "flags": [ "EASY_DECONSTRUCT" ] },
@@ -33,7 +33,7 @@
   {
     "type": "furniture",
     "id": "f_portable_planter_m_mature",
-    "name": "portable planter with mature plant",
+    "name": "便携花盆：装有成熟的植物",
     "copy-from": "f_planter_mature",
     "deployed_item": "portable_planter_m",
     "extend": { "flags": [ "EASY_DECONSTRUCT" ] },
@@ -43,7 +43,7 @@
   {
     "type": "furniture",
     "id": "f_portable_planter_m_harvest",
-    "name": "portable planter with harvestable plant",
+    "name": "便携花盆：装有可收获的植物",
     "copy-from": "f_planter_harvest",
     "deployed_item": "portable_planter_m",
     "extend": { "flags": [ "EASY_DECONSTRUCT" ] },
@@ -53,7 +53,7 @@
   {
     "type": "furniture",
     "id": "f_portable_planter_m_overgrown",
-    "name": "portable planter with dead plant",
+    "name": "便携花盆：装有枯死的植物",
     "copy-from": "f_planter_unharvested_overgrown",
     "deployed_item": "portable_planter_m",
     "extend": { "flags": [ "EASY_DECONSTRUCT" ] },

@@ -3,7 +3,7 @@
     "id": "portable_planter_m",
     "type": "ITEM",
     "subtypes": [ "TOOL" ],
-    "name": { "str": "portable planter (folded)" },
+    "name": { "str": "便携式花盆（折叠式）" },
     "description": "可折叠花盆槽内置于坚固的便携式箱中，可随时安装在您想要种植植物的任何地方。激活它，将其部署为一个可以在其中种植种子的花盆。解构部署的花盆，将其折叠回这个盒子里 - 里面生长的任何东西都会丢失。",
     "weight": "10 kg",
     "volume": "15 L",
