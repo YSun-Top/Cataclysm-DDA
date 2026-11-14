@@ -200,7 +200,7 @@
     "name": "STATS_THROUGH_KILLS",
     "//": "Stats through Kills.  A mod that allows your stats to increase by killing zombies.",
     "stype": "bool",
-    "value": false
+    "value": true
   },
   {
     "type": "EXTERNAL_OPTION",
