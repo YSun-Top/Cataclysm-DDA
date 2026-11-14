@@ -36,4 +36,4 @@
 *.ico     binary
 *.png     binary
 *.ttf     binary
-
+* text=auto eol=lf

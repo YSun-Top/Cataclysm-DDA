@@ -25,6 +25,64 @@
         "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "${sourceDir}",
         "CMAKE_INSTALL_MESSAGE": "NEVER"
       }
+    },
+    {
+      "name": "msys2-tiles-sounds-base",
+      "hidden": true,
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+        "DYNAMIC_LINKING": "True",
+        "CURSES": "False",
+        "TILES": "True",
+        "SOUND": "True",
+        "LOCALIZE": "True",
+        "LANGUAGES": "zh_CN;zh_TW",
+        "TESTS": "True",
+        "BACKTRACE": "True",
+        "USE_HOME_DIR": "False",
+        "USE_PREFIX_DATA_DIR": "False",
+        "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "${sourceDir}",
+        "CMAKE_INSTALL_MESSAGE": "NEVER"
+      }
+    },
+    {
+      "name": "mingw64-tiles-sounds",
+      "displayName": "Windows MINGW64 Tiles Sounds (MSYS2 GCC)",
+      "description": "MSYS2 MINGW64 + GCC，对齐 VS MSVC 构建：TILES+SOUND+LOCALIZE，exe 输出到根目录，存档/配置留在根目录(USE_HOME_DIR=OFF)。",
+      "inherits": [ "msys2-tiles-sounds-base" ],
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      },
+      "cmakeExecutable": "C:/msys64/mingw64/bin/cmake.exe",
+      "environment": {
+        "MSYSTEM": "MINGW64",
+        "MSYSTEM_PREFIX": "C:/msys64/mingw64",
+        "PATH": "$penv{PATH};C:/msys64/mingw64/bin;C:/msys64/usr/bin"
+      }
+    },
+    {
+      "name": "ucrt64-tiles-sounds",
+      "displayName": "Windows UCRT64 Tiles Sounds (MSYS2 GCC)",
+      "description": "MSYS2 UCRT64 + GCC（Win10/11 官方推荐环境），其余配置与 mingw64-tiles-sounds 完全相同。需先安装 mingw-w64-ucrt-x86_64-* 全套。",
+      "inherits": [ "msys2-tiles-sounds-base" ],
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      },
+      "cmakeExecutable": "C:/msys64/ucrt64/bin/cmake.exe",
+      "environment": {
+        "MSYSTEM": "UCRT64",
+        "MSYSTEM_PREFIX": "C:/msys64/ucrt64",
+        "PATH": "$penv{PATH};C:/msys64/ucrt64/bin;C:/msys64/usr/bin"
+      },
+      "cacheVariables": {
+        "CMAKE_CXX_FLAGS": "-IC:/msys64/ucrt64/include/freetype2"
+      }
     }
   ],
   "buildPresets": [
@@ -32,6 +90,28 @@
       "name": "wsl-x64-tiles-sounds",
       "displayName": "WSL x64 Tiles Sounds - Build",
       "configurePreset": "wsl-x64-tiles-sounds"
+    },
+    {
+      "name": "mingw64-tiles-sounds",
+      "displayName": "Windows MINGW64 Tiles Sounds - Build",
+      "configurePreset": "mingw64-tiles-sounds"
+    },
+    {
+      "name": "ucrt64-tiles-sounds",
+      "displayName": "Windows UCRT64 Tiles Sounds - Build",
+      "configurePreset": "ucrt64-tiles-sounds"
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "mingw64-tiles-sounds",
+      "displayName": "Windows MINGW64 Tiles Sounds - Test",
+      "configurePreset": "mingw64-tiles-sounds"
+    },
+    {
+      "name": "ucrt64-tiles-sounds",
+      "displayName": "Windows UCRT64 Tiles Sounds - Test",
+      "configurePreset": "ucrt64-tiles-sounds"
     }
   ]
 }
