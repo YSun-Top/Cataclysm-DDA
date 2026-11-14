@@ -2,7 +2,7 @@
   {
     "type": "MOD_INFO",
     "id": "i_noencum_backpacks",
-    "name": "No encumbrance backpacks",
+    "name": "去除背包累赘，不用每次打架都脱下背包了!",
     "authors": [ "Sai/Fentanylreactor" ],
     "description": "不需要每次战斗都担心背包的累赘值，现在背包去掉了累赘值",
     "category": "rebalance",
